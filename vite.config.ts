@@ -21,6 +21,7 @@ export default defineConfig(({ mode }) => ({
     sourcemap: false,
     // Inline small assets to reduce HTTP requests
     assetsInlineLimit: 4096,
+    chunkSizeWarningLimit: 700,
     rollupOptions: {
       output: {
         manualChunks: {
