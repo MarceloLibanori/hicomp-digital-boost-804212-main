@@ -1301,7 +1301,7 @@ export const topics: Topic[] = [
     image: filtrosImg,
     category: "hubs",
     tags: ["filtros hidráulicos", "HDA", "newtec", "filtro pressão", "filtro retorno", "contaminação"],
-    popular: false,
+    popular: true,
     relatedTopics: ["filtro-hda", "filtro-pressao-hda", "filtro-duplo-hda", "filtros-newtec", "reparo-de-unidades-hidraulicas", "hub-unidades-hidraulicas"],
   },
   {
