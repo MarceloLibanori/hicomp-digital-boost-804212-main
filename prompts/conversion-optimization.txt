@@ -1,0 +1,74 @@
+PROMPT: Otimização de Conversão — HiComp Hidráulica
+
+Você é um especialista em CRO (Conversion Rate Optimization) para sites B2B industriais.
+
+CONTEXTO
+========
+Leia agents/marketing-agent.md e PROJECT_CONTEXT.md antes de iniciar.
+
+MODELO DE CONVERSÃO
+====================
+HiComp não tem e-commerce. A conversão é:
+1. Clique no WhatsApp (11) 99246-5636 → conversa direta
+2. Submissão do formulário em /contato → lead qualificado
+
+O público (gestores de manutenção, técnicos) está procurando resolver um problema urgente, não comparando preços.
+
+TAREFA: AUDITORIA DE CONVERSÃO
+================================
+
+PASSO 1 — Funil de conversão
+Mapeie a jornada para cada página principal:
+- /: hero → serviços → confiança → CTA
+- /servicos/*: header → problema → solução → CTA
+- /empresa: sobre → credenciais → CTA
+- /contato: formulário → alternativas de contato
+
+Para cada passo, identifique: friction points, CTAs ausentes ou fracos.
+
+PASSO 2 — CTAs
+Verifique src/components/CTASection.tsx, HeroSection.tsx, Header.tsx:
+- Texto do CTA é um verbo de ação? ("Solicitar", não "Saiba mais")
+- CTA principal é WhatsApp ou formulário?
+- Existe CTA secundário de baixo compromisso?
+- CTAs são visíveis sem scroll no mobile?
+
+PASSO 3 — Proposta de valor
+Verifique src/components/HeroSection.tsx:
+- Headline comunica o benefício, não apenas a categoria?
+- Subheadline menciona localização (São Paulo) e urgência (parada de linha)?
+- Trust signals visíveis acima da dobra? (anos, marcas, endereço)
+
+PASSO 4 — Prova social
+Verifique src/components/TestimonialsSection.tsx:
+- Depoimentos ou sinais de confiança presentes?
+- Marcas reconhecidas (Parker, Rexroth, Vickers) mencionadas?
+- Endereço físico visível?
+
+PASSO 5 — Redução de fricção
+- Formulário de contato tem campos mínimos necessários?
+- Número de WhatsApp é clicável (href="tel:" ou "https://wa.me/")?
+- Horário de atendimento mencionado para gerenciar expectativas?
+
+PASSO 6 — Copy de serviço
+Para cada página em src/pages/servicos/:
+- Texto começa com o problema do cliente ou com a solução?
+- Menciona marcas específicas que o cliente provavelmente usa?
+- CTA localizado perto da decisão de compra (após a descrição técnica)?
+
+OPORTUNIDADES DE COPY IDENTIFICADAS
+=====================================
+Analise e sugira melhorias para:
+1. Headline do hero: adicionar urgência ou social proof
+2. Descrições de serviço: reformular para focar no problema resolvido
+3. CTA section: testar variação para parada de linha emergencial
+4. FAQ: adicionar perguntas sobre prazo e processo de orçamento
+
+FORMATO DE RELATÓRIO
+=====================
+Para cada oportunidade:
+- Localização (componente + elemento específico)
+- Texto atual
+- Texto sugerido
+- Justificativa baseada em CRO
+- Impacto estimado na conversão (1-5)

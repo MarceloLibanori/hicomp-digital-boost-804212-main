@@ -1,0 +1,1261 @@
+import atuadoresImg from "@/assets/atuadores-hero.jpg";
+import bombasImg from "@/assets/bomba_hidraulica/bomba-hidraulica-parker-01.jpg";
+import valvulasImg from "@/assets/info-valvulas.jpg";
+import filtrosImg from "@/assets/info-filtros.jpg";
+import sistemasImg from "@/assets/info-sistemas.jpg";
+import mangueirasImg from "@/assets/info-mangueiras.jpg";
+import bombarexrothImg from "@/assets/bomba_rexroth/bomba-hidraulica-rexroth-01.jpg";
+import bombavickersImg from "@/assets/bomba_vickers/bomba-hidraulica-vickers-01.jpg";
+import cilindrohidraulicoImg from "@/assets/cilindro_hidraulico/cilindro-hidraulico-02.webp";
+import cilindrohidraulicopensa1 from "@/assets/cilindro_hidraulico_para_pensa/cilindro-hidraulico-prensa-01.webp";
+import cilindrohidraulicorexroth1 from "@/assets/cilindro_hidraulico_rexroth/cilindros-hidraulicos-rexroth-01.webp";
+import cilindrohidraulicovickers1 from "@/assets/cilindro_hidraulico_vickers/cilindros-hidraulicos-vickers-01.webp";
+import fabricaDeBombasHidraulicas1 from "@/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-01.webp";
+import fabricadedecilindroshidraulicos1 from "@/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-01.webp";
+import lojadebombashidraulicas1 from "@/assets/loja_bombas_hidraulicas/loja-bombas-hidraulicas-01.webp";
+import manutencaoblocomanifold1 from "@/assets/manutencao_de_bloco_manifold/manutencao-bloco-manifold-01.webp";
+import manutencaodecilindrohidraulico1 from "@/assets/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-01.webp";
+import motorhidraulicoparkerhicomphidraulica1 from "@/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-01.webp";
+import motorhidraulicorexroth1 from "@/assets/motor_hidraulico_rexroth/motor-hidraulico-rexroth-01.webp";
+import motorhidraulicosauerdanfoss1 from "@/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-01.webp";
+import motorhidraulicovickers1 from "@/assets/motor-hidraulico-vickers/motor-hidraulico-vickers-01.webp";
+import reparodeblocomanifold1 from "@/assets/reparo-de-bloco-manifold/reparo-bloco-manifold-01.webp";
+import  reparocilindrohidraulico from "@/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-01.webp";
+import reparounidadehidraulicas1 from "@/assets/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-01.webp";
+import valvuladirecionalboschrexroth1 from "@/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-01.webp";
+import valvuladirecionalparker1 from "@/assets/valvula-direcional-parker/valvula-direcional-parker-01.webp";
+import valvuladirecionalvickers1 from "@/assets/valvula-direcional-vickers/valvula-direcional-vickers-01.webp";
+import valvulahidraulicaparker1 from "@/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-01.webp";
+import valvulahidraulicarexroth1 from "@/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-01.webp";
+import valvulahidraulicavickers1 from "@/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-01.webp";
+import valvulareguladoradepressaovickers1 from "@/assets/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-01.webp";
+import valvulasproporcionais1 from "@/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-01.webp";
+import vendaBombasHidraulicas1 from "@/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-01.webp";
+import valvulasDirecionais1 from "@/assets/valvulas-direcionais/valvulas-direcionais-01.webp";
+import cilindroprecohidraulico1 from "@/assets/cilindro-hidraulico-preco/cilindro-hidraulico-preco-01.webp";
+import consertocilindrohidraulicos from "@/assets/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-01.webp";
+import empresaDeBombasHidraulicas1 from "@/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-01.webp";
+import empresaDeManutencaoDeUnidadesHidraulicas1 from "@/assets/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-01.webp";
+import fabricantesDeCilindrosHidraulicos1 from "@/assets/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-01.webp";
+import manutencaocilindroshidraulicospreco1 from "@/assets/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-01.webp";
+import manutencaounidadeshidraulicas1 from "@/assets/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-01.webp";
+import motorhidraulicopreco1 from "@/assets/motor-hidraulico-preco/motor-hidraulico-preco-01.webp";
+import valvulasdirecionaishidraulicas1 from "@/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-01.webp";
+import atuadorhidraulicoindustrial1 from "@/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-01.webp";
+import bombaHidraulicaAltaPressao1 from "@/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-01.webp";
+import bombaHidraulicaAxial1 from "@/assets/bomba-hidraulica-axial/bomba-hidraulica-axial-01.webp";
+import bombaHidraulicaColheitadeira1 from "@/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-01.webp";
+import bombaHidraulicaEngrenagem1 from "@/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-01.webp";
+import bombaHidraulicaEscavadeira1 from "@/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-01.webp";
+import bombaHidraulicaIndustrial1 from "@/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-01.webp";
+import bombaHidraulicaPreco1 from "@/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-01.webp";
+import cilindrohidraulicoavendaImg from "@/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-01.webp";
+import cilindrohidraulicoaltapressaoImg from "@/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-01.webp";
+import amortecedoreshidraulicosindustriais1 from "@/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-01.webp";
+import cilindrohidraulicobaixapressaoImg from "@/assets/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-01.webp";
+import cilindrohidraulicobasculanteImg from "@/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-01.webp";
+import cilindrohidraulicosimplesefeitoImg from "@/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-01.webp";
+import cilindrohidraulicoduplaacaoImg from "@/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-01.webp";
+import cilindrohidraulicoduplaacaoprecoImg from "@/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-01.webp";
+import cilindrohidraulicoempilhadeiraImg from "@/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-01.webp";
+import cilindrohidraulicoflangeadoImg from "@/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-01.webp";
+import cilindrohidraulicoindustrialImg from "@/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-01.webp";
+import cilindrohidraulicoretroescavadeiraImg from "@/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-01.webp";
+import cilindrohidraulicoparatratoresImg from "@/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-01.webp";
+import cilindrohidraulicovalorImg from "@/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-01.webp";
+import cilindroshidraulicoscatalogoImg from "@/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-01.webp";
+import reparocilindrohidraulicoimg from "@/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-01.webp";
+import valvulacontroledirecional1 from "@/assets/valvula-controle-direcional/valvula-controle-direcional-01.webp";
+import valvuladirecionalcentroaberto1 from "@/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-01.webp";
+import valvuladirecionalcentrofechado1 from "@/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-01.webp";
+import valvuladirecionalcomalavanca1 from "@/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-01.webp";
+import valvuladirecionaleletrica1 from "@/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-01.webp";
+import valvuladirecionalhidraulicapilotada1 from "@/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-01.webp";
+import valvuladirecionalhidraulicapreco1 from "@/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-01.webp";
+import valvuladirecionalproporcional1 from "@/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-01.webp";
+import valvuladirecionalsolenoide from "@/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-01.webp";
+import valvulaeatuadoreshidraulicosImg from "@/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-01.webp";
+import filtrohda from "@/assets/filtro-hda/filtro-hda-01.webp";
+import filtrosnewtec from "@/assets/filtros-newtec/filtros-newtec-01.webp";
+import bombahidraulicadenison1 from "@/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-01.webp";
+import filtrohdapressao1 from "@/assets/filtro-pressao-hda/filtro-pressao-hda-01.webp";
+import distribuidorfintroshda1 from "@/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-01.webp";
+import unidadehidraulicavickers from "@/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-01.webp";
+import filtrohdaduplo1 from "@/assets/filtro-duplo-hda/filtro-duplo-hda-01.webp";
+import atuadorhidraulicopreco1 from "@/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-01.webp";
+import valvuladirecionalmanual1 from "@/assets/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-01.webp";
+import reformadecilindros1 from "@/assets/reforma-de-cilindros/reforma-cilindros-01.webp";
+import valvuladirecionalmecanica1 from "@/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-01.webp";
+import bombadepalhetas1 from "@/assets/bomba-de-palhetas/bomba-palhetas-01.webp";
+import bombadepalhetasvickers1 from "@/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-01.webp";
+import bombadenison1 from "@/assets/bomba-denison/bomba-denison-01.webp";
+import bombarexroth1 from "@/assets/bomba-rexroth/bomba-rexroth-01.webp";
+import bombavickers1 from "@/assets/bomba-vickers1/bomba-vickers-01.webp";
+import conjuntorotativo1 from "@/assets/conjunto-rotativo/conjunto-rotativo-01.webp";
+import conjuntorotativovickers1 from "@/assets/conjunto-rotativo-vickers/conjunto-rotativo-vickers-01.webp";
+import consertodevalvulashidraulicas1 from "@/assets/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-01.webp";
+import valvuladirecionaldofluid1 from "@/assets/valvula-direccional-dofluid/valvula-direccional-dofluid-01.webp";
+import valvulaproporcionalhidraulicavickers1 from "@/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-01.webp";
+
+export interface Topic {
+  id: string;
+  title: string;
+  image: string;
+  category: string;
+  tags: string[];
+  popular: boolean;
+  relatedTopics?: string[];  // IDs de tópicos relacionados
+}
+
+export const topics: Topic[] = [
+  // ========== ATUADORES ==========
+  {
+    id: "atuadores-hidraulicos",
+    title: "Atuadores hidráulicos",
+    image: atuadoresImg,
+    category: "componentes",
+    tags: ["atuador hidráulico", "cilindro", "motor hidráulico", "pistão"],
+    popular: true,
+    relatedTopics: ["atuador-hidraulico-industrial", "cilindro-hidraulico", "motor-hidraulico-rexroth", "motor-hidraulico-vickers", "valvulas-direcionais"],
+  },
+  {
+    id: "atuador-hidraulico-industrial",
+    title: "Atuador hidráulico industrial",
+    image: atuadorhidraulicoindustrial1,
+    category: "componentes",
+    tags: ["atuador industrial", "cilindro rotativo", "industrial", "São Paulo"],
+    popular: false,
+    relatedTopics: ["atuadores-hidraulicos", "atuador-hidraulico-preco", "cilindro-hidraulico-industrial", "motor-hidraulico-rexroth", "valvulas-direcionais"],
+  },
+  {
+    id: "atuador-hidraulico-preco",
+    title: "Atuador hidráulico preço",
+    image: atuadorhidraulicopreco1,
+    category: "componentes",
+    tags: ["preço atuador", "atuador hidráulico", "orçamento", "valor"],
+    popular: false,
+    relatedTopics: ["atuadores-hidraulicos", "atuador-hidraulico-industrial", "cilindro-hidraulico-preco", "motor-hidraulico-preco"],
+  },
+  // ========== BOMBAS HIDRÁULICAS ==========
+  {
+    id: "bomba-hidraulica-parker",
+    title: "Bomba hidráulica Parker",
+    image: bombasImg,
+    category: "componentes",
+    tags: ["parker", "bomba hidráulica", "pistão", "São Paulo"],
+    popular: true,
+    relatedTopics: ["bomba-hidraulica-rexroth", "bomba-hidraulica-vickers", "bomba-hidraulica-industrial", "reparo-de-bomba-hidraulica", "fabrica-de-bombas-hidraulicas"],
+  },
+  {
+    id: "bomba-hidraulica-rexroth",
+    title: "Bomba hidráulica Rexroth",
+    image: bombarexrothImg,
+    category: "componentes",
+    tags: ["rexroth", "bosch rexroth", "bomba hidráulica", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-parker", "bomba-hidraulica-vickers", "bomba-rexroth", "reparo-de-bomba-hidraulica", "motor-hidraulico-rexroth"],
+  },
+  {
+    id: "bomba-hidraulica-vickers",
+    title: "Bomba hidráulica Vickers",
+    image: bombavickersImg,
+    category: "componentes",
+    tags: ["vickers", "eaton", "bomba hidráulica", "palhetas"],
+    popular: true,
+    relatedTopics: ["bomba-hidraulica-parker", "bomba-vickers", "bomba-de-palhetas-vickers", "reparo-de-bomba-hidraulica", "valvula-hidraulica-vickers"],
+  },
+  {
+    id: "bomba-hidraulica-alta-pressao",
+    title: "Bomba hidráulica alta pressão",
+    image: bombaHidraulicaAltaPressao1,
+    category: "componentes",
+    tags: ["bomba alta pressão", "pistão", "300 bar", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-parker", "bomba-hidraulica-rexroth", "bomba-hidraulica-axial", "bomba-hidraulica-industrial", "reparo-de-bomba-hidraulica"],
+  },
+  {
+    id: "bomba-hidraulica-axial",
+    title: "Bomba hidráulica axial",
+    image: bombaHidraulicaAxial1,
+    category: "componentes",
+    tags: ["bomba axial", "pistão axial", "cilindrada variável", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-alta-pressao", "bomba-hidraulica-parker", "bomba-hidraulica-rexroth", "reparo-de-bomba-hidraulica", "bomba-hidraulica-industrial"],
+  },
+  {
+    id: "bomba-hidraulica-colheitadeira",
+    title: "Bomba hidráulica colheitadeira",
+    image: bombaHidraulicaColheitadeira1,
+    category: "componentes",
+    tags: ["colheitadeira", "bomba agrícola", "agronegócio", "john deere"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-escavadeira", "bomba-hidraulica-industrial", "reparo-de-bomba-hidraulica", "bomba-hidraulica-engrenagem"],
+  },
+  {
+    id: "bomba-hidraulica-engrenagem",
+    title: "Bomba hidráulica engrenagem",
+    image: bombaHidraulicaEngrenagem1,
+    category: "componentes",
+    tags: ["bomba engrenagem", "gear pump", "baixa pressão", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-de-palhetas", "bomba-hidraulica-industrial", "bomba-hidraulica-parker", "reparo-de-bomba-hidraulica", "fabrica-de-bombas-hidraulicas"],
+  },
+  {
+    id: "bomba-hidraulica-escavadeira",
+    title: "Bomba hidráulica escavadeira",
+    image: bombaHidraulicaEscavadeira1,
+    category: "componentes",
+    tags: ["escavadeira", "bomba móvel", "construção civil", "komatsu"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-colheitadeira", "bomba-hidraulica-industrial", "reparo-de-bomba-hidraulica", "cilindro-hidraulico-retroescavadeira"],
+  },
+  {
+    id: "bomba-hidraulica-industrial",
+    title: "Bomba hidráulica industrial",
+    image: bombaHidraulicaIndustrial1,
+    category: "componentes",
+    tags: ["bomba industrial", "bomba hidráulica", "indústria", "São Paulo"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-parker", "bomba-hidraulica-rexroth", "bomba-hidraulica-alta-pressao", "fabrica-de-bombas-hidraulicas", "empresa-de-bombas-hidraulicas"],
+  },
+  {
+    id: "bomba-hidraulica-preco",
+    title: "Bomba hidráulica preço",
+    image: bombaHidraulicaPreco1,
+    category: "componentes",
+    tags: ["preço bomba hidráulica", "orçamento", "quanto custa", "valor"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-parker", "bomba-hidraulica-industrial", "reparo-de-bomba-hidraulica", "loja-de-bombas-hidraulicas", "venda-de-bombas-hidraulicas"],
+  },
+  {
+    id: "bomba-hidraulica-denison",
+    title: "Bomba hidráulica Denison",
+    image: bombahidraulicadenison1,
+    category: "componentes",
+    tags: ["denison", "bomba palhetas", "T6 series", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-denison", "bomba-de-palhetas", "bomba-hidraulica-industrial", "reparo-de-bomba-hidraulica", "fabrica-de-bombas-hidraulicas"],
+  },
+  {
+    id: "bomba-de-palhetas",
+    title: "Bomba de palhetas",
+    image: bombadepalhetas1,
+    category: "componentes",
+    tags: ["bomba palhetas", "vane pump", "baixo ruído", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-de-palhetas-vickers", "bomba-hidraulica-vickers", "bomba-hidraulica-engrenagem", "reparo-de-bomba-hidraulica", "conjunto-rotativo"],
+  },
+  {
+    id: "bomba-de-palhetas-vickers",
+    title: "Bomba de palhetas Vickers",
+    image: bombadepalhetasvickers1,
+    category: "componentes",
+    tags: ["vickers", "bomba palhetas", "eaton", "V10 V20"],
+    popular: false,
+    relatedTopics: ["bomba-de-palhetas", "bomba-vickers", "bomba-hidraulica-vickers", "conjunto-rotativo-vickers", "reparo-de-bomba-hidraulica"],
+  },
+  {
+    id: "bomba-denison",
+    title: "Bomba Denison",
+    image: bombadenison1,
+    category: "componentes",
+    tags: ["denison", "bomba hidráulica", "gold cup", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-denison", "bomba-de-palhetas", "reparo-de-bomba-hidraulica", "bomba-hidraulica-industrial"],
+  },
+  {
+    id: "bomba-rexroth",
+    title: "Bomba Rexroth",
+    image: bombarexroth1,
+    category: "componentes",
+    tags: ["rexroth", "A10VSO", "A4VSO", "bosch rexroth"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-rexroth", "motor-hidraulico-rexroth", "valvula-hidraulica-rexroth", "reparo-de-bomba-hidraulica", "valvula-direcional-bosch-rexroth"],
+  },
+  {
+    id: "bomba-vickers",
+    title: "Bomba Vickers",
+    image: bombavickers1,
+    category: "componentes",
+    tags: ["vickers", "PVB", "PVQ", "eaton palhetas"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-vickers", "bomba-de-palhetas-vickers", "valvula-hidraulica-vickers", "motor-hidraulico-vickers", "reparo-de-bomba-hidraulica"],
+  },
+  {
+    id: "fabrica-de-bombas-hidraulicas",
+    title: "Fábrica de bombas hidráulicas",
+    image: fabricaDeBombasHidraulicas1,
+    category: "componentes",
+    tags: ["fábrica", "fabricação", "bomba hidráulica", "sob medida"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-industrial", "empresa-de-bombas-hidraulicas", "loja-de-bombas-hidraulicas", "venda-de-bombas-hidraulicas", "reparo-de-bomba-hidraulica"],
+  },
+  {
+    id: "loja-de-bombas-hidraulicas",
+    title: "Loja de bombas hidráulicas",
+    image: lojadebombashidraulicas1,
+    category: "componentes",
+    tags: ["loja", "venda", "bomba hidráulica", "São Paulo"],
+    popular: false,
+    relatedTopics: ["venda-de-bombas-hidraulicas", "empresa-de-bombas-hidraulicas", "bomba-hidraulica-industrial", "bomba-hidraulica-preco", "fabrica-de-bombas-hidraulicas"],
+  },
+  {
+    id: "empresa-de-bombas-hidraulicas",
+    title: "Empresa de bombas hidráulicas",
+    image: empresaDeBombasHidraulicas1,
+    category: "componentes",
+    tags: ["empresa", "fornecedor", "bomba hidráulica", "São Paulo"],
+    popular: false,
+    relatedTopics: ["fabrica-de-bombas-hidraulicas", "loja-de-bombas-hidraulicas", "bomba-hidraulica-industrial", "reparo-de-bomba-hidraulica", "manutencao-de-unidades-hidraulicas"],
+  },
+  {
+    id: "venda-de-bombas-hidraulicas",
+    title: "Venda de bombas hidráulicas",
+    image: vendaBombasHidraulicas1,
+    category: "componentes",
+    tags: ["venda", "comprar bomba hidráulica", "preço", "São Paulo"],
+    popular: false,
+    relatedTopics: ["loja-de-bombas-hidraulicas", "bomba-hidraulica-preco", "bomba-hidraulica-industrial", "empresa-de-bombas-hidraulicas", "fabrica-de-bombas-hidraulicas"],
+  },
+  // ─── Novos tópicos: bombas ───
+  {
+    id: "bomba-de-pistao-hidraulica",
+    title: "Bomba de pistão hidráulica",
+    image: bombaHidraulicaAltaPressao1,
+    category: "componentes",
+    tags: ["bomba pistão", "alta pressão", "variável", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-axial", "bomba-hidraulica-alta-pressao", "bomba-hidraulica-parker", "reparo-de-bomba-hidraulica"],
+  },
+  {
+    id: "bomba-hidraulica-eaton",
+    title: "Bomba hidráulica Eaton",
+    image: bombasImg,
+    category: "componentes",
+    tags: ["eaton", "bomba hidráulica", "vickers", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-vickers", "bomba-de-palhetas-vickers", "motor-hidraulico-eaton", "reparo-de-bomba-hidraulica"],
+  },
+  {
+    id: "bomba-hidraulica-sauer-danfoss",
+    title: "Bomba hidráulica Sauer Danfoss",
+    image: bombarexrothImg,
+    category: "componentes",
+    tags: ["sauer danfoss", "danfoss", "série 90", "industrial"],
+    popular: false,
+    relatedTopics: ["motor-hidraulico-sauer-danfoss", "bomba-hidraulica-rexroth", "reparo-de-bomba-hidraulica", "bomba-hidraulica-industrial"],
+  },
+  {
+    id: "bomba-hidraulica-parker-preco",
+    title: "Bomba hidráulica Parker preço",
+    image: bombasImg,
+    category: "componentes",
+    tags: ["parker", "preço bomba parker", "orçamento", "valor"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-parker", "bomba-hidraulica-preco", "reparo-de-bomba-hidraulica", "fabrica-de-bombas-hidraulicas"],
+  },
+  {
+    id: "bomba-hidraulica-sao-paulo",
+    title: "Bomba hidráulica São Paulo",
+    image: bombaHidraulicaIndustrial1,
+    category: "componentes",
+    tags: ["São Paulo", "bomba hidráulica", "Grande SP", "entrega rápida"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-industrial", "empresa-de-bombas-hidraulicas", "loja-de-bombas-hidraulicas", "reparo-de-bomba-hidraulica"],
+  },
+  // ========== CILINDROS HIDRÁULICOS ==========
+  {
+    id: "cilindro-hidraulico",
+    title: "Cilindro hidráulico",
+    image: cilindrohidraulicoImg,
+    category: "componentes",
+    tags: ["cilindro hidráulico", "atuador linear", "pistão", "fabricação"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-dupla-acao", "cilindro-hidraulico-simples-efeito", "cilindro-hidraulico-industrial", "manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-para-pensa",
+    title: "Cilindro hidráulico para prensa",
+    image: cilindrohidraulicopensa1,
+    category: "componentes",
+    tags: ["prensa", "cilindro prensa", "alta pressão", "estampagem"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-alta-pressao", "cilindro-hidraulico-industrial", "fabrica-de-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-rexroth",
+    title: "Cilindros hidráulicos Rexroth",
+    image: cilindrohidraulicorexroth1,
+    category: "componentes",
+    tags: ["rexroth", "cilindro hidráulico", "CDT3", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "cilindro-hidraulico-industrial", "bomba-hidraulica-rexroth", "valvula-hidraulica-rexroth", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindros-hidraulicos-vickers",
+    title: "Cilindros hidráulicos Vickers",
+    image: cilindrohidraulicovickers1,
+    category: "componentes",
+    tags: ["vickers", "eaton", "cilindro hidráulico", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "cilindro-hidraulico-industrial", "bomba-hidraulica-vickers", "valvula-hidraulica-vickers", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "fabrica-de-cilindros-hidraulicos",
+    title: "Fábrica de cilindros hidráulicos",
+    image: fabricadedecilindroshidraulicos1,
+    category: "componentes",
+    tags: ["fábrica", "cilindro hidráulico", "sob medida", "fabricação especial"],
+    popular: false,
+    relatedTopics: ["fabricantes-de-cilindros-hidraulicos", "cilindro-hidraulico-industrial", "manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos", "conserto-cilindros-hidraulicos"],
+  },
+  {
+    id: "fabricantes-de-cilindros-hidraulicos",
+    title: "Fabricantes de cilindros hidráulicos",
+    image: fabricantesDeCilindrosHidraulicos1,
+    category: "componentes",
+    tags: ["fabricante", "cilindro hidráulico", "sob medida", "São Paulo"],
+    popular: false,
+    relatedTopics: ["fabrica-de-cilindros-hidraulicos", "cilindro-hidraulico-industrial", "cilindro-hidraulico-preco", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-preco",
+    title: "Cilindro hidráulico preço",
+    image: cilindroprecohidraulico1,
+    category: "componentes",
+    tags: ["preço cilindro hidráulico", "orçamento", "valor", "quanto custa"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "cilindro-hidraulico-industrial", "fabrica-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos", "cilindro-hidraulico-valor"],
+  },
+  {
+    id: "cilindro-hidraulico-valor",
+    title: "Cilindro hidráulico valor",
+    image: cilindrohidraulicovalorImg,
+    category: "componentes",
+    tags: ["valor cilindro", "preço", "cilindro hidráulico", "orçamento"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-preco", "cilindro-hidraulico", "fabrica-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-a-venda",
+    title: "Cilindro hidráulico à venda",
+    image: cilindrohidraulicoavendaImg,
+    category: "componentes",
+    tags: ["venda cilindro", "comprar cilindro", "cilindro hidráulico", "São Paulo"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-preco", "cilindro-hidraulico-industrial", "fabrica-de-cilindros-hidraulicos", "cilindro-hidraulico-valor"],
+  },
+  {
+    id: "cilindro-hidraulico-alta-pressao",
+    title: "Cilindro hidráulico de alta pressão",
+    image: cilindrohidraulicoaltapressaoImg,
+    category: "componentes",
+    tags: ["alta pressão", "cilindro hidráulico", "200 bar", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "cilindro-hidraulico-dupla-acao", "cilindro-hidraulico-industrial", "fabrica-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-baixa-pressao",
+    title: "Cilindro hidráulico baixa pressão",
+    image: cilindrohidraulicobaixapressaoImg,
+    category: "componentes",
+    tags: ["baixa pressão", "cilindro hidráulico", "25 bar", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "cilindro-hidraulico-simples-efeito", "cilindro-hidraulico-industrial", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-basculante",
+    title: "Cilindro hidráulico basculante",
+    image: cilindrohidraulicobasculanteImg,
+    category: "componentes",
+    tags: ["basculante", "caçamba", "caminhão", "cilindro telescópico"],
+    popular: false,
+    relatedTopics: ["cilindro-telescopico", "cilindro-hidraulico", "reparo-de-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-simples-efeito",
+    title: "Cilindro hidráulico de simples efeito",
+    image: cilindrohidraulicosimplesefeitoImg,
+    category: "componentes",
+    tags: ["simples efeito", "retorno mola", "cilindro hidráulico", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-dupla-acao", "cilindro-hidraulico", "cilindro-hidraulico-industrial", "manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-dupla-acao",
+    title: "Cilindro hidráulico dupla ação",
+    image: cilindrohidraulicoduplaacaoImg,
+    category: "componentes",
+    tags: ["dupla ação", "double acting", "cilindro hidráulico", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-simples-efeito", "cilindro-hidraulico", "cilindro-hidraulico-alta-pressao", "manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-dupla-acao_preco",
+    title: "Cilindro hidráulico dupla ação preço",
+    image: cilindrohidraulicoduplaacaoprecoImg,
+    category: "componentes",
+    tags: ["preço dupla ação", "cilindro hidráulico", "orçamento", "quanto custa"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-dupla-acao", "cilindro-hidraulico-preco", "fabrica-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-empilhadeira",
+    title: "Cilindro hidráulico empilhadeira",
+    image: cilindrohidraulicoempilhadeiraImg,
+    category: "componentes",
+    tags: ["empilhadeira", "cilindro mast", "movimentação materiais", "toyota"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "reparo-de-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos", "cilindro-hidraulico-industrial"],
+  },
+  {
+    id: "cilindro-hidraulico-flangeado",
+    title: "Cilindro hidráulico flangeado",
+    image: cilindrohidraulicoflangeadoImg,
+    category: "componentes",
+    tags: ["flangeado", "flange dianteira", "cilindro hidráulico", "fixação"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-industrial", "cilindro-hidraulico", "fabrica-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-industrial",
+    title: "Cilindro hidráulico industrial",
+    image: cilindrohidraulicoindustrialImg,
+    category: "componentes",
+    tags: ["industrial", "cilindro hidráulico", "atuador", "São Paulo"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "cilindro-hidraulico-dupla-acao", "fabrica-de-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-retroescavadeira",
+    title: "Cilindro Hidráulico Retroescavadeira",
+    image: cilindrohidraulicoretroescavadeiraImg,
+    category: "componentes",
+    tags: ["retroescavadeira", "lança", "construção civil", "caterpillar"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "reparo-de-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos", "bomba-hidraulica-escavadeira"],
+  },
+  {
+    id: "cilindro-hidraulico-para-tratores",
+    title: "Cilindro hidráulico para tratores",
+    image: cilindrohidraulicoparatratoresImg,
+    category: "componentes",
+    tags: ["trator", "agrícola", "cilindro hidráulico", "agronegócio"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "reparo-de-cilindros-hidraulicos", "bomba-hidraulica-colheitadeira", "manutencao-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindros-hidraulicos-catalogo",
+    title: "Cilindros hidráulicos catálogo",
+    image: cilindroshidraulicoscatalogoImg,
+    category: "componentes",
+    tags: ["catálogo", "especificações", "cilindro hidráulico", "tabela técnica"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-industrial", "fabrica-de-cilindros-hidraulicos", "fabricantes-de-cilindros-hidraulicos", "cilindro-hidraulico-preco"],
+  },
+  {
+    id: "amortecedores-hidraulicos-industriais",
+    title: "Amortecedores hidráulicos industriais",
+    image: amortecedoreshidraulicosindustriais1,
+    category: "componentes",
+    tags: ["amortecedor hidráulico", "absorção impacto", "cilindro amortecedor", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "atuadores-hidraulicos", "cilindro-hidraulico-industrial", "reparo-de-cilindros-hidraulicos"],
+  },
+  // ─── Novos tópicos: cilindros ───
+  {
+    id: "cilindro-telescopico",
+    title: "Cilindro telescópico hidráulico",
+    image: cilindrohidraulicoImg,
+    category: "componentes",
+    tags: ["cilindro telescópico", "multi-estágio", "caçamba", "basculante"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-basculante", "cilindro-hidraulico", "fabrica-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-inox",
+    title: "Cilindro hidráulico inox",
+    image: cilindrohidraulicoindustrialImg,
+    category: "componentes",
+    tags: ["inox", "aço inoxidável", "cilindro hidráulico", "alimentício"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico-industrial", "fabrica-de-cilindros-hidraulicos", "cilindro-hidraulico", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "cilindro-hidraulico-parker",
+    title: "Cilindro hidráulico Parker",
+    image: cilindrohidraulicoImg,
+    category: "componentes",
+    tags: ["parker", "cilindro hidráulico", "serie 2H", "industrial"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "cilindro-hidraulico-industrial", "bomba-hidraulica-parker", "reparo-de-cilindros-hidraulicos", "fabrica-de-cilindros-hidraulicos"],
+  },
+  // ========== MOTORES HIDRÁULICOS ==========
+  {
+    id: "motor-hidraulico-parker-hicomp-hidraulica",
+    title: "Motor Hidráulico Parker",
+    image: motorhidraulicoparkerhicomphidraulica1,
+    category: "componentes",
+    tags: ["parker", "motor hidráulico", "torque", "industrial"],
+    popular: false,
+    relatedTopics: ["motor-hidraulico-rexroth", "motor-hidraulico-vickers", "bomba-hidraulica-parker", "atuadores-hidraulicos", "reparo-de-unidades-hidraulicas"],
+  },
+  {
+    id: "motor-hidraulico-rexroth",
+    title: "Motor Hidráulico Rexroth",
+    image: motorhidraulicorexroth1,
+    category: "componentes",
+    tags: ["rexroth", "motor hidráulico", "MCR", "industrial"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-rexroth", "motor-hidraulico-vickers", "motor-hidraulico-sauer-danfoss", "reparo-de-unidades-hidraulicas", "atuadores-hidraulicos"],
+  },
+  {
+    id: "motor-hidraulico-sauer-danfoss",
+    title: "Motor hidráulico Sauer Danfoss",
+    image: motorhidraulicosauerdanfoss1,
+    category: "componentes",
+    tags: ["sauer danfoss", "motor orbital", "OMT", "industrial"],
+    popular: false,
+    relatedTopics: ["motor-hidraulico-rexroth", "motor-hidraulico-orbital", "motor-hidraulico-vickers", "atuadores-hidraulicos", "reparo-de-unidades-hidraulicas"],
+  },
+  {
+    id: "motor-hidraulico-vickers",
+    title: "Motor hidráulico Vickers",
+    image: motorhidraulicovickers1,
+    category: "componentes",
+    tags: ["vickers", "motor hidráulico", "eaton", "industrial"],
+    popular: false,
+    relatedTopics: ["motor-hidraulico-rexroth", "bomba-hidraulica-vickers", "motor-hidraulico-eaton", "atuadores-hidraulicos", "reparo-de-unidades-hidraulicas"],
+  },
+  {
+    id: "motor-hidraulico-preco",
+    title: "Motor hidráulico preço",
+    image: motorhidraulicopreco1,
+    category: "componentes",
+    tags: ["preço motor hidráulico", "orçamento", "valor", "quanto custa"],
+    popular: false,
+    relatedTopics: ["motor-hidraulico-rexroth", "motor-hidraulico-vickers", "atuador-hidraulico-preco", "reparo-de-unidades-hidraulicas"],
+  },
+  // ─── Novos tópicos: motores ───
+  {
+    id: "motor-hidraulico-eaton",
+    title: "Motor hidráulico Eaton",
+    image: motorhidraulicovickers1,
+    category: "componentes",
+    tags: ["eaton", "vickers", "motor hidráulico", "industrial"],
+    popular: false,
+    relatedTopics: ["motor-hidraulico-vickers", "bomba-hidraulica-vickers", "motor-hidraulico-rexroth", "atuadores-hidraulicos"],
+  },
+  {
+    id: "motor-hidraulico-orbital",
+    title: "Motor hidráulico orbital",
+    image: motorhidraulicosauerdanfoss1,
+    category: "componentes",
+    tags: ["orbital", "motor gerotor", "baixa velocidade", "alto torque"],
+    popular: false,
+    relatedTopics: ["motor-hidraulico-sauer-danfoss", "motor-hidraulico-rexroth", "atuadores-hidraulicos", "reparo-de-unidades-hidraulicas"],
+  },
+  // ========== MANUTENÇÃO ==========
+  {
+    id: "manutencao-de-bloco-manifold",
+    title: "Manutenção de bloco manifold",
+    image: manutencaoblocomanifold1,
+    category: "manutencao",
+    tags: ["bloco manifold", "manutenção", "retífica", "industrial"],
+    popular: false,
+    relatedTopics: ["reparo-de-bloco-manifold", "manutencao-de-unidades-hidraulicas", "reparo-de-unidades-hidraulicas", "bloco-manifold-hidraulico"],
+  },
+  {
+    id: "manutencao-de-cilindros-hidraulicos",
+    title: "Manutenção de cilindros hidráulicos",
+    image: manutencaodecilindrohidraulico1,
+    category: "manutencao",
+    tags: ["manutenção cilindro", "troca vedação", "reparo", "São Paulo"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "reparo-de-cilindros-hidraulicos", "conserto-cilindros-hidraulicos", "fabrica-de-cilindros-hidraulicos", "manutencao-de-unidades-hidraulicas"],
+  },
+  {
+    id: "reparo-de-bloco-manifold",
+    title: "Reparo de bloco manifold",
+    image: reparodeblocomanifold1,
+    category: "manutencao",
+    tags: ["reparo manifold", "retífica manifold", "bloco hidráulico", "industrial"],
+    popular: false,
+    relatedTopics: ["manutencao-de-bloco-manifold", "reparo-de-unidades-hidraulicas", "manutencao-de-unidades-hidraulicas", "bloco-manifold-hidraulico"],
+  },
+  {
+    id: "reparo-de-cilindros-hidraulicos",
+    title: "Reparo de cilindros hidráulicos",
+    image: reparocilindrohidraulico,
+    category: "manutencao",
+    tags: ["reparo cilindro", "recondicionar", "vedação", "conserto"],
+    popular: false,
+    relatedTopics: ["cilindro-hidraulico", "manutencao-de-cilindros-hidraulicos", "conserto-cilindros-hidraulicos", "fabrica-de-cilindros-hidraulicos", "cilindro-hidraulico-preco"],
+  },
+  {
+    id: "reparo-de-unidades-hidraulicas",
+    title: "Reparo de unidades hidráulicas",
+    image: reparounidadehidraulicas1,
+    category: "manutencao",
+    tags: ["reparo unidade hidráulica", "central hidráulica", "recondicionar", "São Paulo"],
+    popular: false,
+    relatedTopics: ["manutencao-de-unidades-hidraulicas", "reparo-de-bloco-manifold", "manutencao-de-bloco-manifold", "manutencao-de-cilindros-hidraulicos", "bomba-hidraulica-industrial"],
+  },
+  {
+    id: "conserto-cilindros-hidraulicos",
+    title: "Conserto Cilindros Hidráulicos",
+    image: consertocilindrohidraulicos,
+    category: "manutencao",
+    tags: ["conserto cilindro", "reparo cilindro", "vedação", "recondicionamento"],
+    popular: false,
+    relatedTopics: ["reparo-de-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos", "reforma-de-cilindros-hidraulicos", "cilindro-hidraulico", "fabrica-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "conserto-de-valvulas-hidraulicas",
+    title: "Conserto de válvulas hidráulicas",
+    image: consertodevalvulashidraulicas1,
+    category: "manutencao",
+    tags: ["conserto válvula", "reparo válvula", "manutenção", "recondicionar"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-hidraulica-parker", "valvula-hidraulica-rexroth", "reparo-de-unidades-hidraulicas", "manutencao-de-unidades-hidraulicas"],
+  },
+  {
+    id: "manutencao-cilindros-hidraulicos-preco",
+    title: "Manutenção Cilindros Hidráulicos Preço",
+    image: manutencaocilindroshidraulicospreco1,
+    category: "manutencao",
+    tags: ["preço manutenção cilindro", "orçamento", "quanto custa", "valor"],
+    popular: false,
+    relatedTopics: ["manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos", "cilindro-hidraulico-preco", "conserto-cilindros-hidraulicos"],
+  },
+  {
+    id: "manutencao-de-unidades-hidraulicas",
+    title: "Manutenção de unidades hidráulicas",
+    image: manutencaounidadeshidraulicas1,
+    category: "manutencao",
+    tags: ["manutenção unidade hidráulica", "preventiva", "central hidráulica", "São Paulo"],
+    popular: false,
+    relatedTopics: ["reparo-de-unidades-hidraulicas", "empresa-de-manutencao-de-unidades-hidraulicas", "manutencao-de-bloco-manifold", "reparo-de-bloco-manifold", "bomba-hidraulica-industrial"],
+  },
+  {
+    id: "empresa-de-manutencao-de-unidades-hidraulicas",
+    title: "Empresa de manutenção de unidades hidráulicas",
+    image: empresaDeManutencaoDeUnidadesHidraulicas1,
+    category: "manutencao",
+    tags: ["empresa manutenção", "unidade hidráulica", "São Paulo", "industrial"],
+    popular: false,
+    relatedTopics: ["manutencao-de-unidades-hidraulicas", "reparo-de-unidades-hidraulicas", "revisao-de-unidade-hidraulica", "diagnostico-hidraulico"],
+  },
+  {
+    id: "reforma-de-cilindros-hidraulicos",
+    title: "Reforma de cilindros hidráulicos",
+    image: reparocilindrohidraulicoimg,
+    category: "manutencao",
+    tags: ["reforma cilindro", "recondicionado", "retífica", "recondicionar"],
+    popular: false,
+    relatedTopics: ["reforma-de-cilindros", "reparo-de-cilindros-hidraulicos", "conserto-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "reforma-de-cilindros",
+    title: "Reforma de cilindros",
+    image: reformadecilindros1,
+    category: "manutencao",
+    tags: ["reforma", "cilindro hidráulico", "recondicionamento", "retífica"],
+    popular: false,
+    relatedTopics: ["reforma-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos", "conserto-cilindros-hidraulicos", "manutencao-de-cilindros-hidraulicos"],
+  },
+  // ─── Novos tópicos: manutenção ───
+  {
+    id: "reparo-de-bomba-hidraulica",
+    title: "Reparo de bomba hidráulica",
+    image: reparounidadehidraulicas1,
+    category: "manutencao",
+    tags: ["reparo bomba", "conserto bomba", "recondicionar", "manutenção"],
+    popular: false,
+    relatedTopics: ["bomba-hidraulica-parker", "bomba-hidraulica-rexroth", "bomba-hidraulica-vickers", "conserto-de-bomba-hidraulica", "manutencao-de-unidades-hidraulicas"],
+  },
+  {
+    id: "conserto-de-bomba-hidraulica",
+    title: "Conserto de bomba hidráulica",
+    image: bombasImg,
+    category: "manutencao",
+    tags: ["conserto bomba", "reparo bomba", "recondicionamento", "São Paulo"],
+    popular: false,
+    relatedTopics: ["reparo-de-bomba-hidraulica", "bomba-hidraulica-parker", "bomba-hidraulica-rexroth", "manutencao-de-unidades-hidraulicas", "empresa-de-bombas-hidraulicas"],
+  },
+  {
+    id: "revisao-de-unidade-hidraulica",
+    title: "Revisão de unidade hidráulica",
+    image: reparounidadehidraulicas1,
+    category: "manutencao",
+    tags: ["revisão", "unidade hidráulica", "overhaul", "preventiva"],
+    popular: false,
+    relatedTopics: ["manutencao-de-unidades-hidraulicas", "reparo-de-unidades-hidraulicas", "empresa-de-manutencao-de-unidades-hidraulicas", "diagnostico-hidraulico"],
+  },
+  {
+    id: "limpeza-de-sistema-hidraulico",
+    title: "Limpeza de sistema hidráulico",
+    image: filtrosImg,
+    category: "manutencao",
+    tags: ["limpeza hidráulica", "flush", "contaminação", "manutenção"],
+    popular: false,
+    relatedTopics: ["filtro-hda", "filtros-newtec", "troca-de-oleo-hidraulico", "manutencao-de-unidades-hidraulicas", "diagnostico-hidraulico"],
+  },
+  {
+    id: "diagnostico-hidraulico",
+    title: "Diagnóstico hidráulico industrial",
+    image: sistemasImg,
+    category: "manutencao",
+    tags: ["diagnóstico", "troubleshooting", "falha hidráulica", "análise"],
+    popular: false,
+    relatedTopics: ["manutencao-de-unidades-hidraulicas", "reparo-de-unidades-hidraulicas", "limpeza-de-sistema-hidraulico", "reparo-de-bomba-hidraulica"],
+  },
+  {
+    id: "troca-de-oleo-hidraulico",
+    title: "Troca de óleo hidráulico",
+    image: filtrosImg,
+    category: "manutencao",
+    tags: ["troca óleo", "óleo hidráulico", "ISO VG 46", "manutenção preventiva"],
+    popular: false,
+    relatedTopics: ["oleo-hidraulico", "limpeza-de-sistema-hidraulico", "filtro-hda", "manutencao-de-unidades-hidraulicas"],
+  },
+  {
+    id: "oleo-hidraulico",
+    title: "Óleo hidráulico industrial",
+    image: filtrosImg,
+    category: "manutencao",
+    tags: ["óleo hidráulico", "ISO VG 46", "fluido hidráulico", "lubrificante"],
+    popular: false,
+    relatedTopics: ["troca-de-oleo-hidraulico", "filtro-hda", "limpeza-de-sistema-hidraulico", "manutencao-de-unidades-hidraulicas"],
+  },
+  // ========== VÁLVULAS HIDRÁULICAS ==========
+  {
+    id: "valvula-hidraulica-parker",
+    title: "Válvula hidráulica Parker",
+    image: valvulahidraulicaparker1,
+    category: "componentes",
+    tags: ["parker", "válvula hidráulica", "industrial", "São Paulo"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-direcional-parker", "valvulas-proporcionais-hidraulicas", "valvula-hidraulica-rexroth", "bomba-hidraulica-parker"],
+  },
+  {
+    id: "valvula-hidraulica-rexroth",
+    title: "Válvula hidráulica Rexroth",
+    image: valvulahidraulicarexroth1,
+    category: "componentes",
+    tags: ["rexroth", "bosch rexroth", "válvula hidráulica", "industrial"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-direcional-bosch-rexroth", "valvula-hidraulica-vickers", "bomba-hidraulica-rexroth", "motor-hidraulico-rexroth"],
+  },
+  {
+    id: "valvula-hidraulica-vickers",
+    title: "Válvula hidráulica Vickers",
+    image: valvulahidraulicavickers1,
+    category: "componentes",
+    tags: ["vickers", "eaton", "válvula hidráulica", "industrial"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-vickers", "valvula-reguladora-de-pressao-vickers", "valvula-proporcional-hidraulica-vickers", "bomba-hidraulica-vickers", "valvulas-direcionais"],
+  },
+  {
+    id: "valvula-reguladora-de-pressao-vickers",
+    title: "Válvula reguladora de pressão Vickers",
+    image: valvulareguladoradepressaovickers1,
+    category: "componentes",
+    tags: ["vickers", "reguladora de pressão", "alívio", "industrial"],
+    popular: false,
+    relatedTopics: ["valvula-hidraulica-vickers", "valvula-de-alivio-hidraulica", "valvula-limitadora-de-pressao", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvulas-proporcionais-hidraulicas",
+    title: "Válvulas proporcionais hidráulicas",
+    image: valvulasproporcionais1,
+    category: "componentes",
+    tags: ["proporcional", "eletro-hidráulica", "servo válvula", "controle"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-proporcional", "valvula-proporcional-hidraulica-vickers", "valvulas-direcionais", "valvula-hidraulica-rexroth", "valvula-hidraulica-parker"],
+  },
+  {
+    id: "valvulas-direcionais",
+    title: "Válvulas direcionais",
+    image: valvulasDirecionais1,
+    category: "componentes",
+    tags: ["válvula direcional", "solenoide", "spool", "industrial"],
+    popular: false,
+    relatedTopics: ["valvula-hidraulica-parker", "valvula-hidraulica-rexroth", "valvulas-proporcionais-hidraulicas", "valvula-direcional-parker", "valvula-direcional-bosch-rexroth"],
+  },
+  {
+    id: "valvulas-direcionais-hidraulicas",
+    title: "Válvulas direcionais hidráulicas",
+    image: valvulasdirecionaishidraulicas1,
+    category: "componentes",
+    tags: ["válvula direcional hidráulica", "pilotada", "solenoide", "industrial"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-direcional-solenoide", "valvula-direcional-hidraulica-pilotada", "valvula-hidraulica-parker", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-direcional-bosch-rexroth",
+    title: "Válvula direcional Bosch Rexroth",
+    image: valvuladirecionalboschrexroth1,
+    category: "componentes",
+    tags: ["rexroth", "bosch rexroth", "4WE6", "4WE10"],
+    popular: false,
+    relatedTopics: ["valvula-hidraulica-rexroth", "valvulas-direcionais", "bomba-hidraulica-rexroth", "valvula-direcional-proporcional", "motor-hidraulico-rexroth"],
+  },
+  {
+    id: "valvula-direcional-parker",
+    title: "Válvula direcional Parker",
+    image: valvuladirecionalparker1,
+    category: "componentes",
+    tags: ["parker", "D1VW", "D3W", "válvula direcional"],
+    popular: false,
+    relatedTopics: ["valvula-hidraulica-parker", "valvulas-direcionais", "bomba-hidraulica-parker", "valvula-direcional-solenoide", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-direcional-vickers",
+    title: "Válvula direcional Vickers",
+    image: valvuladirecionalvickers1,
+    category: "componentes",
+    tags: ["vickers", "DG4V", "DG5V", "válvula direcional"],
+    popular: false,
+    relatedTopics: ["valvula-hidraulica-vickers", "valvulas-direcionais", "bomba-hidraulica-vickers", "valvula-proporcional-hidraulica-vickers", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-controle-direcional",
+    title: "Válvula controle direcional",
+    image: valvulacontroledirecional1,
+    category: "componentes",
+    tags: ["controle direcional", "válvula spool", "industrial", "5/3 vias"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-direcional-solenoide", "valvula-direcional-hidraulica-pilotada", "valvula-hidraulica-parker"],
+  },
+  {
+    id: "valvula-direcional-centro-aberto",
+    title: "Válvula direcional centro aberto",
+    image: valvuladirecionalcentroaberto1,
+    category: "componentes",
+    tags: ["centro aberto", "tandem center", "válvula direcional", "alívio central"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-centro-fechado", "valvulas-direcionais", "valvula-controle-direcional"],
+  },
+  {
+    id: "valvula-direcional-centro-fechado",
+    title: "Válvula direcional centro fechado",
+    image: valvuladirecionalcentrofechado1,
+    category: "componentes",
+    tags: ["centro fechado", "blocked center", "válvula direcional", "posição neutra"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-centro-aberto", "valvulas-direcionais", "valvula-controle-direcional"],
+  },
+  {
+    id: "valvula-direcional-com-alavanca",
+    title: "Válvula direcional com alavanca",
+    image: valvuladirecionalcomalavanca1,
+    category: "componentes",
+    tags: ["alavanca", "acionamento manual", "válvula direcional", "mecânico"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-hidraulica-manual", "valvula-direcional-mecanica", "valvulas-direcionais", "valvula-controle-direcional"],
+  },
+  {
+    id: "valvula-direcional-eletrica",
+    title: "Válvula direcional elétrica",
+    image: valvuladirecionaleletrica1,
+    category: "componentes",
+    tags: ["elétrica", "solenoide", "eletroválvula", "controle remoto"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-solenoide", "valvulas-direcionais", "valvula-direcional-proporcional", "valvula-hidraulica-parker"],
+  },
+  {
+    id: "valvula-direcional-hidraulica-pilotada",
+    title: "Válvula direcional hidráulica pilotada",
+    image: valvuladirecionalhidraulicapilotada1,
+    category: "componentes",
+    tags: ["pilotada", "pilot operated", "válvula direcional", "alta vazão"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-direcional-solenoide", "valvula-direcional-bosch-rexroth", "valvulas-direcionais-hidraulicas"],
+  },
+  {
+    id: "valvula-direcional-hidraulica-preco",
+    title: "Válvula direcional hidráulica preço",
+    image: valvuladirecionalhidraulicapreco1,
+    category: "componentes",
+    tags: ["preço válvula direcional", "orçamento", "valor", "quanto custa"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-hidraulica-parker", "valvula-hidraulica-rexroth", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-direcional-proporcional",
+    title: "Válvula direcional proporcional",
+    image: valvuladirecionalproporcional1,
+    category: "componentes",
+    tags: ["proporcional", "servo válvula", "eletro-hidráulica", "controle fino"],
+    popular: false,
+    relatedTopics: ["valvulas-proporcionais-hidraulicas", "valvula-proporcional-hidraulica-vickers", "valvulas-direcionais", "valvula-direcional-bosch-rexroth"],
+  },
+  {
+    id: "valvula-direcional-solenoide",
+    title: "Válvula direcional solenoide",
+    image: valvuladirecionalsolenoide,
+    category: "componentes",
+    tags: ["solenoide", "eletroválvula", "válvula direcional", "elétrica"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-eletrica", "valvulas-direcionais", "valvula-direcional-parker", "valvula-direcional-bosch-rexroth"],
+  },
+  {
+    id: "valvula-e-atuadores-hidraulicos",
+    title: "Válvulas e atuadores hidráulicos",
+    image: valvulaeatuadoreshidraulicosImg,
+    category: "componentes",
+    tags: ["válvula", "atuador hidráulico", "cilindro", "controle"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "atuadores-hidraulicos", "cilindro-hidraulico", "motor-hidraulico-rexroth"],
+  },
+  {
+    id: "valvula-direcional-hidraulica-manual",
+    title: "Válvula direcional hidráulica manual",
+    image: valvuladirecionalmanual1,
+    category: "componentes",
+    tags: ["manual", "alavanca", "válvula direcional", "acionamento mecânico"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-com-alavanca", "valvula-direcional-mecanica", "valvulas-direcionais", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-direcional-mecanica",
+    title: "Válvula direcional mecânica",
+    image: valvuladirecionalmecanica1,
+    category: "componentes",
+    tags: ["mecânica", "cam operated", "válvula direcional", "rolete"],
+    popular: false,
+    relatedTopics: ["valvula-direcional-hidraulica-manual", "valvula-direcional-com-alavanca", "valvulas-direcionais"],
+  },
+  {
+    id: "valvula-direccional-dofluid",
+    title: "Válvula direcional Dofluid",
+    image: valvuladirecionaldofluid1,
+    category: "componentes",
+    tags: ["dofluid", "válvula direcional", "DFA", "industrial"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-hidraulica-parker", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-proporcional-hidraulica-vickers",
+    title: "Válvula proporcional hidráulica Vickers",
+    image: valvulaproporcionalhidraulicavickers1,
+    category: "componentes",
+    tags: ["vickers", "proporcional", "KBFDG4V", "eletro-hidráulica"],
+    popular: false,
+    relatedTopics: ["valvulas-proporcionais-hidraulicas", "valvula-hidraulica-vickers", "valvula-direcional-proporcional", "bomba-hidraulica-vickers"],
+  },
+  // ─── Novos tópicos: válvulas ───
+  {
+    id: "valvula-de-alivio-hidraulica",
+    title: "Válvula de alívio hidráulica",
+    image: valvulahidraulicaparker1,
+    category: "componentes",
+    tags: ["válvula alívio", "safety relief", "pressão máxima", "proteção"],
+    popular: false,
+    relatedTopics: ["valvula-limitadora-de-pressao", "valvula-reguladora-de-pressao-vickers", "valvulas-direcionais", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-limitadora-de-pressao",
+    title: "Válvula limitadora de pressão",
+    image: valvulareguladoradepressaovickers1,
+    category: "componentes",
+    tags: ["limitadora de pressão", "válvula alívio", "pressão máxima", "industrial"],
+    popular: false,
+    relatedTopics: ["valvula-de-alivio-hidraulica", "valvula-reguladora-de-pressao-vickers", "valvula-redutora-de-pressao", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-de-retencao-hidraulica",
+    title: "Válvula de retenção hidráulica",
+    image: valvulahidraulicaparker1,
+    category: "componentes",
+    tags: ["retenção", "check valve", "anti-retorno", "industrial"],
+    popular: false,
+    relatedTopics: ["valvulas-direcionais", "valvula-hidraulica-parker", "conserto-de-valvulas-hidraulicas"],
+  },
+  {
+    id: "valvula-redutora-de-pressao",
+    title: "Válvula redutora de pressão",
+    image: valvulahidraulicarexroth1,
+    category: "componentes",
+    tags: ["redutora de pressão", "pressure reducing", "circuito secundário", "industrial"],
+    popular: false,
+    relatedTopics: ["valvula-limitadora-de-pressao", "valvula-de-alivio-hidraulica", "valvula-hidraulica-rexroth", "conserto-de-valvulas-hidraulicas"],
+  },
+  // ========== FILTROS HIDRÁULICOS ==========
+  {
+    id: "filtro-hda",
+    title: "Filtro HDA",
+    image: filtrohda,
+    category: "componentes",
+    tags: ["hda", "filtro hidráulico", "filtragem", "industrial"],
+    popular: false,
+    relatedTopics: ["filtro-pressao-hda", "filtro-duplo-hda", "distribuidor-filtros-hda", "filtros-newtec", "reparo-de-unidades-hidraulicas"],
+  },
+  {
+    id: "filtros-newtec",
+    title: "Filtros Newtec",
+    image: filtrosnewtec,
+    category: "componentes",
+    tags: ["newtec", "filtro hidráulico", "elemento filtrante", "industrial"],
+    popular: false,
+    relatedTopics: ["filtro-hda", "filtro-pressao-hda", "filtro-duplo-hda", "limpeza-de-sistema-hidraulico"],
+  },
+  {
+    id: "filtro-pressao-hda",
+    title: "Filtro pressão HDA",
+    image: filtrohdapressao1,
+    category: "componentes",
+    tags: ["hda", "filtro de pressão", "high pressure filter", "industrial"],
+    popular: false,
+    relatedTopics: ["filtro-hda", "filtro-duplo-hda", "distribuidor-filtros-hda", "filtros-newtec"],
+  },
+  {
+    id: "distribuidor-filtros-hda",
+    title: "Distribuidor filtros HDA",
+    image: distribuidorfintroshda1,
+    category: "componentes",
+    tags: ["hda", "distribuidor", "filtro hidráulico", "representante São Paulo"],
+    popular: false,
+    relatedTopics: ["filtro-hda", "filtro-pressao-hda", "filtro-duplo-hda", "filtros-newtec"],
+  },
+  {
+    id: "filtro-duplo-hda",
+    title: "Filtro duplo HDA",
+    image: filtrohdaduplo1,
+    category: "componentes",
+    tags: ["hda", "filtro duplex", "duplo", "sem parada"],
+    popular: false,
+    relatedTopics: ["filtro-hda", "filtro-pressao-hda", "distribuidor-filtros-hda", "filtros-newtec"],
+  },
+  // ========== SISTEMAS HIDRÁULICOS ==========
+  {
+    id: "unidade-hidraulica-vickers",
+    title: "Unidade hidráulica Vickers",
+    image: unidadehidraulicavickers,
+    category: "sistemas",
+    tags: ["vickers", "unidade hidráulica", "central hidráulica", "eaton"],
+    popular: false,
+    relatedTopics: ["manutencao-de-unidades-hidraulicas", "reparo-de-unidades-hidraulicas", "bomba-hidraulica-vickers", "valvula-hidraulica-vickers", "central-hidraulica"],
+  },
+  // ─── Novos tópicos: sistemas ───
+  {
+    id: "unidade-hidraulica-industrial",
+    title: "Unidade hidráulica industrial",
+    image: sistemasImg,
+    category: "sistemas",
+    tags: ["unidade hidráulica", "central hidráulica", "potência hidráulica", "São Paulo"],
+    popular: false,
+    relatedTopics: ["central-hidraulica", "manutencao-de-unidades-hidraulicas", "reparo-de-unidades-hidraulicas", "bomba-hidraulica-industrial", "bloco-manifold-hidraulico"],
+  },
+  {
+    id: "central-hidraulica",
+    title: "Central hidráulica",
+    image: sistemasImg,
+    category: "sistemas",
+    tags: ["central hidráulica", "unidade hidráulica", "power unit", "industrial"],
+    popular: false,
+    relatedTopics: ["unidade-hidraulica-industrial", "manutencao-de-unidades-hidraulicas", "reparo-de-unidades-hidraulicas", "bomba-hidraulica-industrial", "bloco-manifold-hidraulico"],
+  },
+  {
+    id: "sistema-hidraulico-industrial",
+    title: "Sistema hidráulico industrial",
+    image: sistemasImg,
+    category: "sistemas",
+    tags: ["sistema hidráulico", "circuito hidráulico", "industrial", "São Paulo"],
+    popular: false,
+    relatedTopics: ["central-hidraulica", "unidade-hidraulica-industrial", "manutencao-de-unidades-hidraulicas", "valvulas-direcionais", "atuadores-hidraulicos"],
+  },
+  {
+    id: "unidade-hidraulica-compacta",
+    title: "Unidade hidráulica compacta",
+    image: sistemasImg,
+    category: "sistemas",
+    tags: ["unidade compacta", "mini central", "compacta", "industrial"],
+    popular: false,
+    relatedTopics: ["central-hidraulica", "unidade-hidraulica-industrial", "bomba-hidraulica-industrial", "manutencao-de-unidades-hidraulicas"],
+  },
+  {
+    id: "acumulador-hidraulico",
+    title: "Acumulador hidráulico",
+    image: sistemasImg,
+    category: "sistemas",
+    tags: ["acumulador", "bexiga", "pressão acumulada", "energia hidráulica"],
+    popular: false,
+    relatedTopics: ["central-hidraulica", "unidade-hidraulica-industrial", "sistema-hidraulico-industrial"],
+  },
+  {
+    id: "bloco-manifold-hidraulico",
+    title: "Bloco manifold hidráulico",
+    image: manutencaoblocomanifold1,
+    category: "sistemas",
+    tags: ["bloco manifold", "manifold hidráulico", "usinagem", "sob medida"],
+    popular: false,
+    relatedTopics: ["manutencao-de-bloco-manifold", "reparo-de-bloco-manifold", "central-hidraulica", "valvulas-direcionais"],
+  },
+  // ========== VEDAÇÕES E MANGUEIRAS ==========
+  {
+    id: "retentores-hidraulicos",
+    title: "Retentores hidráulicos",
+    image: valvulasImg,
+    category: "componentes",
+    tags: ["retentor hidráulico", "vedação", "seal", "cilindro"],
+    popular: false,
+    relatedTopics: ["vedacoes-hidraulicas", "manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos"],
+  },
+  {
+    id: "vedacoes-hidraulicas",
+    title: "Vedações hidráulicas",
+    image: valvulasImg,
+    category: "componentes",
+    tags: ["vedação hidráulica", "kit vedação", "o'ring", "seal kit"],
+    popular: false,
+    relatedTopics: ["retentores-hidraulicos", "manutencao-de-cilindros-hidraulicos", "reparo-de-cilindros-hidraulicos", "conserto-cilindros-hidraulicos"],
+  },
+  {
+    id: "mangueira-hidraulica",
+    title: "Mangueira hidráulica",
+    image: mangueirasImg,
+    category: "componentes",
+    tags: ["mangueira hidráulica", "flexible hose", "conexão", "São Paulo"],
+    popular: false,
+    relatedTopics: ["mangueira-hidraulica-alta-pressao", "conexoes-hidraulicas", "sistema-hidraulico-industrial"],
+  },
+  {
+    id: "mangueira-hidraulica-alta-pressao",
+    title: "Mangueira hidráulica alta pressão",
+    image: mangueirasImg,
+    category: "componentes",
+    tags: ["mangueira alta pressão", "SAE 100R", "4SH", "flexível"],
+    popular: false,
+    relatedTopics: ["mangueira-hidraulica", "conexoes-hidraulicas", "bomba-hidraulica-alta-pressao"],
+  },
+  {
+    id: "conexoes-hidraulicas",
+    title: "Conexões hidráulicas",
+    image: mangueirasImg,
+    category: "componentes",
+    tags: ["conexão hidráulica", "fitting", "adaptador", "NPT BSP"],
+    popular: false,
+    relatedTopics: ["mangueira-hidraulica", "mangueira-hidraulica-alta-pressao", "sistema-hidraulico-industrial"],
+  },
+  // ========== COMPONENTES MISCELÂNEOS ==========
+  {
+    id: "conjunto-rotativo",
+    title: "Conjunto rotativo",
+    image: conjuntorotativo1,
+    category: "componentes",
+    tags: ["conjunto rotativo", "repair kit", "bomba hidráulica", "pistões"],
+    popular: false,
+    relatedTopics: ["conjunto-rotativo-vickers", "bomba-de-palhetas", "reparo-de-bomba-hidraulica", "bomba-hidraulica-vickers"],
+  },
+  {
+    id: "conjunto-rotativo-vickers",
+    title: "Conjunto rotativo Vickers",
+    image: conjuntorotativovickers1,
+    category: "componentes",
+    tags: ["vickers", "conjunto rotativo", "palhetas", "reparo bomba"],
+    popular: false,
+    relatedTopics: ["conjunto-rotativo", "bomba-de-palhetas-vickers", "bomba-vickers", "reparo-de-bomba-hidraulica"],
+  },
+];

@@ -1,0 +1,35 @@
+COMANDO: /full-review
+Revisão completa do site HiComp Hidráulica
+
+Use o prompt em prompts/full-ecommerce-optimization.txt como instrução base.
+
+ESCOPO
+======
+Este comando executa uma revisão completa em 5 dimensões:
+1. SEO técnico (meta tags, structured data, sitemap, GEO)
+2. Performance (Core Web Vitals, bundle, cache)
+3. Copy e conversão (CTAs, headlines, textos)
+4. Acessibilidade (WCAG 2.1 AA)
+5. Structured data (JSON-LD em todas as rotas)
+
+EXECUÇÃO
+========
+1. Leia PROJECT_CONTEXT.md
+2. Leia AGENTS.md (regras de segurança)
+3. Percorra src/pages/ e src/components/ identificando problemas
+4. Percorra scripts/prerender-seo.cjs verificando structured data
+5. Verifique public/sitemap.xml, robots.txt, llms.txt
+6. Verifique vercel.json (cache, redirects)
+7. Gere relatório em reports/full-review-YYYY-MM-DD.md
+
+SAÍDA ESPERADA
+==============
+- Relatório com todos os problemas encontrados
+- Agrupados por dimensão (SEO / Performance / Copy / A11y / Schema)
+- Cada problema com: arquivo, linha, impacto (1-5), solução
+- Lista priorizada de implementações recomendadas
+
+APÓS A REVISÃO
+==============
+- Implementar apenas os itens de impacto 5 sem aprovação adicional
+- Apresentar lista dos demais para aprovação antes de implementar

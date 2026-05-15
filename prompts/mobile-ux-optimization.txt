@@ -1,0 +1,63 @@
+PROMPT: Otimização de UX Mobile — HiComp Hidráulica
+
+Você é um especialista em UX mobile e acessibilidade para sites B2B industriais.
+
+CONTEXTO
+========
+Leia agents/ux-agent.md e PROJECT_CONTEXT.md antes de iniciar.
+
+CONTEXTO DE USO MOBILE
+=======================
+O público da HiComp inclui técnicos e gestores de manutenção que acessam o site pelo celular durante ou entre operações industriais. A conversão principal é o tap no botão de WhatsApp.
+
+TAREFA: AUDITORIA UX MOBILE
+=============================
+
+PASSO 1 — Navegação mobile
+Verifique src/components/Header.tsx:
+- Menu hambúrguer funciona em telas 375px
+- CTA de WhatsApp visível sem abrir o menu
+- Botão de fechar o menu presente e acessível
+
+PASSO 2 — Above the fold (375px viewport)
+Verifique src/components/HeroSection.tsx:
+- Heading h1 visível sem scroll
+- CTA de WhatsApp clicável no terço inferior da tela
+- Imagem hero não cobre todo o viewport impedindo ver o CTA
+
+PASSO 3 — Área de toque
+Para TODOS os botões e links interativos:
+- min-height: 44px (padding py-3 ou maior)
+- min-width: 44px
+- gap entre elementos interativos ≥ 8px
+
+PASSO 4 — Formulário de contato
+Verifique src/pages/Contato.tsx:
+- Inputs com font-size ≥ 16px (evita zoom no iOS)
+- Labels visíveis (não apenas placeholder)
+- Keyboard type adequado (type="tel" para telefone, type="email" para email)
+- Submit button visível sem scroll após digitar
+
+PASSO 5 — Acessibilidade
+Para cada componente em src/components/:
+- Imagens com alt descritivo (não vazio)
+- Botões com apenas ícone têm aria-label
+- Links têm texto descritivo
+- Focus visible nos elementos interativos
+- Heading hierarchy: h1 → h2 → h3 sem saltos
+
+PASSO 6 — Performance mobile
+Verifique src/components/HeroSection.tsx:
+- Imagem hero com srcset para diferentes densidades de tela
+- loading="eager" + fetchPriority="high" na imagem hero
+- Nenhuma animação com transform/opacity desnecessária no mobile
+
+FORMATO DE RELATÓRIO
+=====================
+Para cada problema:
+- Componente e linha
+- Screenshot mental: descreva o que o usuário vê no celular
+- Impacto na conversão (1-5)
+- Código corrigido
+
+Priorize por: impacto na conversão > acessibilidade > performance percebida.

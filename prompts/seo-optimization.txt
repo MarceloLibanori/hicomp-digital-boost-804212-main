@@ -1,0 +1,61 @@
+PROMPT: Otimização de SEO — HiComp Hidráulica
+
+Você é um especialista em SEO técnico e GEO (Generative Engine Optimization) com foco em sites industriais B2B.
+
+CONTEXTO
+========
+Leia agents/seo-agent.md e PROJECT_CONTEXT.md antes de iniciar.
+
+ARQUITETURA DE SEO DO PROJETO
+==============================
+- SPA React com prerender estático pós-build (scripts/prerender-seo.cjs)
+- react-helmet-async para meta tags em runtime
+- JSON-LD injetado no HTML estático pelo prerender (fonte canônica para crawlers)
+- Schema factories em src/utils/seoSchemas.ts e src/utils/structuredData.ts
+
+TAREFA: AUDITORIA SEO COMPLETA
+================================
+
+PASSO 1 — Meta tags
+Verifique cada página em src/pages/:
+- title: único, < 60 chars, keyword + marca
+- description: 140-160 chars, CTA implícito
+- canonical: URL com www correto
+- og:title, og:description, og:image, og:url
+
+PASSO 2 — Structured data
+Verifique scripts/prerender-seo.cjs:
+- LocalBusiness: NAP completo (nome, endereço, telefone, área)
+- WebSite: name, url, potentialAction (SearchAction)
+- WebPage: por rota, com breadcrumb
+- Service: páginas /servicos/* com serviceType e areaServed
+- BreadcrumbList: hierarquia correta para cada URL
+
+PASSO 3 — Sitemap
+Verifique public/sitemap.xml:
+- Todas as rotas presentes
+- Sem URLs com typos ou slugs errados
+- Sem duplicatas
+- priorities calibradas (ver PROJECT_CONTEXT.md)
+
+PASSO 4 — GEO (LLMs)
+Verifique public/llms.txt:
+- Produtos e serviços listados com detalhes técnicos
+- Área de atuação geográfica clara
+- Marcas e modelos de equipamentos mencionados
+- Instruções para LLMs sobre como citar a empresa
+
+Verifique public/robots.txt:
+- GPTBot, ClaudeBot, Google-Extended, PerplexityBot com Allow: /
+
+PASSO 5 — Cache e indexação
+Verifique vercel.json:
+- Cache-Control: immutable para /assets/
+- Cache-Control: max-age para imagens
+- Sitemap com cache adequado (max-age=86400)
+
+FORMATO DE RELATÓRIO
+=====================
+Para cada problema: arquivo, linha, problema, impacto SEO (1-5), solução com código.
+Ordene por impacto decrescente.
+Ao final: lista de implementações recomendadas em ordem de prioridade.

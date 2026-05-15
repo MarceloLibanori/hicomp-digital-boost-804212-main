@@ -1,0 +1,47 @@
+# Robots.txt — HiComp Hidráulica
+# https://www.hicomp.com.br
+# Atualizado: 2026-05-12
+
+User-agent: *
+Allow: /
+Disallow: /sitemap$
+Disallow: /*.json$
+Crawl-delay: 2
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /sitemap$
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+# GPTBot (OpenAI / ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+# Google-Extended (Gemini training)
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic ClaudeBot
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Common LLM crawlers
+User-agent: CCBot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+Sitemap: https://www.hicomp.com.br/sitemap.xml

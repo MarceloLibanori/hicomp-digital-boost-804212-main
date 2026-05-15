@@ -1,0 +1,36 @@
+COMANDO: /seo-review
+Revisão de SEO técnico e GEO — HiComp Hidráulica
+
+Use o prompt em prompts/seo-optimization.txt como instrução base.
+
+ESCOPO
+======
+- Meta tags em todas as páginas (title, description, og:*, canonical)
+- Structured data JSON-LD (prerender + runtime)
+- Sitemap.xml (completude, URLs corretas, priorities)
+- robots.txt (permissões para bots de LLM)
+- llms.txt (contexto para indexação por LLMs)
+- Cache-Control headers (vercel.json)
+
+ARQUIVOS A VERIFICAR
+=====================
+src/pages/*.tsx — meta tags via SEOEnhanced
+src/utils/seoSchemas.ts — factories de schema
+src/utils/structuredData.ts — schemas adicionais
+scripts/prerender-seo.cjs — injeção no HTML estático
+public/sitemap.xml
+public/robots.txt
+public/llms.txt
+vercel.json
+
+CRITÉRIO DE SUCESSO
+====================
+- Cada página tem title único < 60 chars
+- Cada página tem description única 140-160 chars
+- Cada rota tem LocalBusiness + WebPage + BreadcrumbList no HTML estático
+- Páginas de serviço têm schema Service com serviceType e areaServed
+- GPTBot, ClaudeBot, Google-Extended permitidos no robots.txt
+
+SAÍDA
+=====
+Gere relatório em reports/seo-review-YYYY-MM-DD.md

@@ -1,0 +1,50 @@
+COMANDO: /conversion-review
+Revisão de conversão e copy — HiComp Hidráulica
+
+Use o prompt em prompts/conversion-optimization.txt como instrução base.
+
+ESCOPO
+======
+- Funil de conversão em cada página principal
+- Qualidade e posicionamento dos CTAs
+- Copy de headlines e subheadlines
+- Proposta de valor e trust signals
+- Redução de fricção no formulário de contato
+- Copy de páginas de serviço
+
+PÁGINAS A AUDITAR
+==================
+/ (homepage via Index.tsx + Home.tsx)
+/empresa
+/servicos/manutencao-bombas-hidraulicas
+/servicos/cilindros-hidraulicos
+/servicos/valvulas-hidraulicas
+/servicos/hidraulica-industrial
+/servicos/assistencia-tecnica-industrial
+/contato
+/faq
+
+COMPONENTES A AUDITAR
+======================
+src/components/HeroSection.tsx — CTA principal
+src/components/CTASection.tsx — CTA de seção
+src/components/TestimonialsSection.tsx — trust signals
+src/components/Header.tsx — CTA navegação
+
+MÉTRICAS DE CONVERSÃO RELEVANTES
+==================================
+- Clareza do CTA (usuário sabe o que acontece ao clicar?)
+- Fricção (quantos campos? quantos cliques?)
+- Trust (endereço, telefone, anos de mercado visíveis?)
+- Urgência (contexto de parada de linha é comunicado?)
+
+CRITÉRIO DE SUCESSO
+====================
+- CTA primário é verbo de ação em todas as páginas
+- WhatsApp aparece pelo menos 2x por página
+- Formulário tem no máximo 4 campos obrigatórios
+- Endereço físico visível no footer
+
+SAÍDA
+=====
+Gere relatório em reports/conversion-review-YYYY-MM-DD.md com texto atual e sugestões de copy.

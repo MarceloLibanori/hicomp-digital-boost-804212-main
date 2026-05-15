@@ -1,0 +1,59 @@
+# Cursor Rules — HiComp Hidráulica
+
+## Identidade do projeto
+Site institucional B2B da HiComp Hidráulica — empresa de hidráulica industrial em São Paulo. Stack: React 18 + Vite + TypeScript + Tailwind CSS + shadcn/ui. Deploy no Vercel via pnpm.
+
+## Regras de segurança (não negociáveis)
+
+- NUNCA alterar URLs de rotas já publicadas (impacto em SEO/indexação)
+- NUNCA remover JSON-LD structured data de componentes existentes
+- NUNCA quebrar o fluxo de prerender em `scripts/prerender-seo.cjs`
+- NUNCA usar `npm` ou `yarn` — este projeto usa **pnpm**
+- NUNCA commitar mudanças em `pnpm-lock.yaml` sem rodar `pnpm install` localmente
+- NUNCA modificar `vercel.json` sem documentar o impacto em cache/redirects
+
+## Estilo de código
+
+- TypeScript estrito — sem `any` implícito
+- Componentes funcionais com tipagem explícita de props
+- Tailwind classes — seguir ordem: layout → spacing → color → typography → interactive
+- Sem comentários óbvios — apenas onde o "porquê" não é evidente
+- Imports absolutos com alias `@/` (mapeado para `src/`)
+- Nomes de arquivos de componente: PascalCase.tsx
+- Sem `console.log` em código de produção
+
+## Padrões de SEO
+
+- Toda página deve ter `<SEOEnhanced />` com title, description e canonical únicos
+- O prerender injeta JSON-LD automaticamente via `scripts/prerender-seo.cjs`
+- Não duplicar JSON-LD entre `SEOEnhanced` e componentes de página
+- Textos de UI devem usar português correto com acentuação completa
+- Headings: h1 único por página, hierarquia h2→h3 sem saltos
+
+## Padrões de performance
+
+- Imagens do hero: arquivos em `/public/` com extensão `.webp` + fallback `.jpg`
+- Nunca usar `loading="lazy"` em imagens above-the-fold
+- Componentes pesados: usar `React.lazy` + `Suspense` com fallback definido
+- Não adicionar dependências de runtime sem avaliar impacto no bundle
+
+## Acessibilidade
+
+- Todo `<img>` deve ter `alt` descritivo (não vazio em imagens de conteúdo)
+- Botões e links devem ter `aria-label` quando o texto visível não é suficiente
+- Elementos interativos precisam de estado `:focus-visible` visível
+- Contraste mínimo: 4.5:1 para texto normal, 3:1 para texto grande
+
+## Fluxo de trabalho
+
+1. Antes de editar, leia o componente completo para entender o contexto
+2. Para mudanças de SEO, consulte `PROJECT_CONTEXT.md` para termos-chave corretos
+3. Após editar `scripts/prerender-seo.cjs`, rode `pnpm build` localmente para validar
+4. Para novos componentes, verifique se existe um shadcn/ui equivalente antes de criar do zero
+5. Documente decisões não óbvias inline (uma linha) ou em `docs/`
+
+## Contexto de negócio
+
+Conversão = contato via WhatsApp (11) 99246-5636 ou formulário em `/contato`.
+Público: gestores de manutenção e técnicos industriais — linguagem técnica é adequada.
+Não há checkout, carrinho ou autenticação — é um site de geração de leads B2B.

@@ -1,0 +1,47 @@
+COMANDO: /performance-review
+Revisão de performance e Core Web Vitals — HiComp Hidráulica
+
+Use o prompt em prompts/performance-optimization.txt como instrução base.
+
+ESCOPO
+======
+- Core Web Vitals: LCP, CLS, INP
+- Bundle analysis (tamanho dos chunks)
+- Lazy loading de páginas (React.lazy)
+- Cache-Control headers
+- Otimização de imagens
+
+ARQUIVOS A VERIFICAR
+=====================
+index.html — preload de hero image
+vite.config.ts — manualChunks e build config
+src/App.tsx — React.lazy e Suspense
+src/components/HeroSection.tsx — imagem LCP
+vercel.json — Cache-Control headers
+package.json — dependências não usadas
+
+MÉTRICAS-ALVO
+==============
+LCP < 2.5s (bom) / < 4.0s (precisa melhorar)
+CLS < 0.1 (bom) / < 0.25 (precisa melhorar)
+INP < 200ms (bom) / < 500ms (precisa melhorar)
+Bundle JS principal < 200KB gzip
+PageSpeed Insights mobile ≥ 85
+
+DIAGNÓSTICO DE CHUNKS (executar localmente)
+============================================
+pnpm build
+ls -lh dist/assets/*.js | sort -k5 -rh | head -15
+
+CRITÉRIO DE SUCESSO
+====================
+- Hero image com <link rel="preload"> em index.html
+- Hero image com fetchPriority="high" + loading="eager"
+- Todas as páginas com React.lazy (não import estático)
+- Chunk vendor-react < 150KB gzip
+- Cache immutable para /assets/ em vercel.json
+- Nenhuma dependência pesada sem uso (recharts, date-fns removidos ✓)
+
+SAÍDA
+=====
+Gere relatório em reports/performance-review-YYYY-MM-DD.md

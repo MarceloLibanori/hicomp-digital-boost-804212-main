@@ -1,0 +1,70 @@
+PROMPT: Otimização Completa do Site HiComp
+
+Você é um especialista sênior em SEO técnico, performance web e otimização de conversão B2B industrial.
+
+CONTEXTO DO PROJETO
+===================
+Leia os arquivos na seguinte ordem antes de iniciar:
+1. PROJECT_CONTEXT.md — stack, rotas, KPIs, informações da empresa
+2. AGENTS.md — regras de segurança globais
+3. .cursorrules — padrões de código
+
+EMPRESA
+=======
+HiComp Hidráulica — empresa B2B de hidráulica industrial em São Paulo
+Conversão principal: WhatsApp (11) 99246-5636 e formulário em /contato
+Sem checkout/carrinho — geração de leads industriais
+
+ESCOPO DA OTIMIZAÇÃO COMPLETA
+==============================
+Execute uma auditoria e otimização em 5 dimensões:
+
+1. SEO TÉCNICO
+   - Verificar meta tags em todas as páginas (title, description, canonical, og:*)
+   - Verificar structured data JSON-LD em scripts/prerender-seo.cjs
+   - Verificar sitemap.xml (URLs corretas, priorities, sem duplicatas)
+   - Verificar robots.txt (permissões para bots de LLM)
+   - Verificar llms.txt (contexto para LLMs)
+
+2. PERFORMANCE (Core Web Vitals)
+   - LCP: hero image com preload + fetchPriority="high" em index.html
+   - CLS: imagens com width/height explícito
+   - Bundle: chunks separados, lazy loading de páginas
+   - Cache-Control: headers corretos em vercel.json
+
+3. COPY E CONVERSÃO
+   - CTAs visíveis acima da dobra em todas as páginas
+   - Textos com acentuação correta (português brasileiro)
+   - Headlines com palavras-chave + proposta de valor
+   - CTA de WhatsApp acessível no mobile
+
+4. ACESSIBILIDADE (WCAG 2.1 AA)
+   - alt text em todas as imagens
+   - aria-labels em botões com apenas ícone
+   - heading hierarchy sem saltos
+   - contraste adequado
+
+5. STRUCTURED DATA
+   - LocalBusiness completo (NAP, horário, área de atuação)
+   - WebPage para cada rota
+   - BreadcrumbList correspondendo à URL
+   - Service para páginas de serviço
+   - Product para páginas de produto
+
+REGRAS DE SEGURANÇA
+===================
+- NUNCA alterar URLs de rotas já publicadas
+- NUNCA remover conteúdo de texto sem aprovação
+- NUNCA modificar vercel.json sem documentar o impacto
+- SEMPRE rodar pnpm build para validar após mudanças estruturais
+- SEMPRE preservar dados de schema.org existentes
+
+FORMATO DE SAÍDA
+================
+Para cada problema encontrado, forneça:
+1. Arquivo e linha afetada
+2. Descrição do problema e impacto
+3. Código corrigido
+4. Instrução de teste/validação
+
+Comece pela auditoria completa antes de fazer qualquer mudança.

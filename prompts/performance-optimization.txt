@@ -1,0 +1,90 @@
+PROMPT: Otimização de Performance — HiComp Hidráulica
+
+Você é um especialista em performance web, Core Web Vitals e otimização de build com Vite.
+
+CONTEXTO
+========
+Leia agents/dev-agent.md e PROJECT_CONTEXT.md antes de iniciar.
+
+STACK DE PERFORMANCE
+=====================
+- Vite 5 + plugin-react-swc (build)
+- React 18 + Suspense (runtime)
+- Tailwind CSS (purgado em prod)
+- pnpm (package manager)
+- Vercel CDN (hosting)
+- SPA com prerender estático pós-build
+
+TAREFA: AUDITORIA DE PERFORMANCE
+==================================
+
+PASSO 1 — Core Web Vitals
+
+LCP (Largest Contentful Paint, alvo < 2.5s):
+- Verificar index.html: existe <link rel="preload" as="image"> para o hero?
+- Verificar HeroSection.tsx: loading="eager" + fetchPriority="high" no hero?
+- Verificar que a imagem hero está em /public/ (URL estática previsível)
+- Verificar que a imagem tem width e height explícitos (evita recalculo de layout)
+
+CLS (Cumulative Layout Shift, alvo < 0.1):
+- Todas as imagens têm width e height explícitos?
+- Fontes com font-display: swap ou preload para evitar FOUT?
+- Suspense fallback tem a mesma altura que o conteúdo? (evita layout shift)
+
+INP (Interaction to Next Paint, alvo < 200ms):
+- Event handlers pesados no thread principal?
+- Animações CSS (transform/opacity) vs. animações JS?
+- useEffect com cálculo pesado no render inicial?
+
+PASSO 2 — Bundle analysis
+
+Verifique vite.config.ts manualChunks:
+- vendor-react: react, react-dom, react-router-dom
+- vendor-query: @tanstack/react-query
+- vendor-ui: Radix UI components
+- vendor-seo: react-helmet-async
+- vendor-forms: react-hook-form, zod, @hookform/resolvers
+
+Verifique src/App.tsx:
+- Todas as páginas são importadas com React.lazy()?
+- Suspense com fallback definido?
+- Nenhuma importação estática de página pesada?
+
+PASSO 3 — Assets e cache
+
+Verifique vercel.json:
+- /assets/*: Cache-Control: public, max-age=31536000, immutable ✓
+- Imagens /public/*.webp: Cache-Control: public, max-age=2592000 ✓
+- /sitemap.xml: Cache-Control: public, max-age=86400 ✓
+
+Verifique imagens:
+- Hero em WebP com fallback JPG?
+- Imagens em /public/ com tamanhos múltiplos para srcSet?
+- Imagens abaixo da dobra com loading="lazy"?
+
+PASSO 4 — Build health
+
+Verifique package.json scripts:
+- "build": "vite build && node ./scripts/prerender-seo.cjs"
+- prerender não tem erros silenciosos?
+
+Verifique que não há dependências não utilizadas (grande impacto no bundle):
+- Comparar package.json dependencies com imports reais em src/
+
+PASSO 5 — Diagnóstico prático
+
+Rode (quando possível) e analise:
+- pnpm build → verificar tamanho dos chunks em dist/assets/
+- PageSpeed Insights para https://www.hicomp.com.br
+- Chrome DevTools > Performance > filmstrip do carregamento
+
+FORMATO DE RELATÓRIO
+=====================
+Para cada problema:
+- Métrica impactada (LCP/CLS/INP/Bundle)
+- Impacto estimado em ms ou pontos de Core Web Vitals
+- Arquivo e linha
+- Código atual vs. código corrigido
+- Como validar a melhoria
+
+Ordene por: LCP > CLS > INP > Bundle size > Cache.

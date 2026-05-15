@@ -1,0 +1,42 @@
+COMANDO: /mobile-review
+Revisão de UX mobile e acessibilidade — HiComp Hidráulica
+
+Use o prompt em prompts/mobile-ux-optimization.txt como instrução base.
+
+ESCOPO
+======
+- Navegação mobile (header, menu hambúrguer)
+- Above the fold em 375px viewport
+- Áreas de toque (mínimo 44x44px)
+- Formulário de contato no mobile
+- Acessibilidade (WCAG 2.1 AA)
+- Performance percebida no mobile
+
+COMPONENTES A VERIFICAR
+========================
+src/components/Header.tsx
+src/components/HeroSection.tsx
+src/components/CTASection.tsx
+src/components/Footer.tsx
+src/pages/Contato.tsx
+src/App.tsx (Suspense fallback)
+
+SIMULAÇÃO DE VIEWPORT
+======================
+Analise como cada componente se comporta em:
+- 375px (iPhone SE / iPhone 12 mini)
+- 390px (iPhone 14)
+- 414px (iPhone Plus)
+- 360px (Android médio)
+
+CRITÉRIO DE SUCESSO
+====================
+- CTA de WhatsApp visível sem scroll em 375px
+- Todos os botões com py-3 ou maior (44px height)
+- Inputs com text-base (16px) para evitar zoom no iOS
+- Contraste ≥ 4.5:1 em todos os textos
+- Heading hierarchy sem saltos em todas as páginas
+
+SAÍDA
+=====
+Gere relatório em reports/mobile-review-YYYY-MM-DD.md
