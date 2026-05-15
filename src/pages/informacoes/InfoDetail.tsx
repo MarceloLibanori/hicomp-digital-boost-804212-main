@@ -449,6 +449,36 @@ const InfoDetail = () => {
                 {/* FAQs */}
                 {hasFAQ && <FAQSection faqs={detailedContent.faq!} />}
 
+                {/* Artigos Relacionados */}
+                {relatedTopicObjects.length > 0 && (
+                  <div className="mt-12 pt-8 border-t">
+                    <h2 className="text-2xl font-bold mb-6 uppercase tracking-wide">
+                      Artigos Relacionados
+                    </h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {relatedTopicObjects.map((relTopic) => (
+                        <Link
+                          key={relTopic.id}
+                          to={`/informacoes/${relTopic.id}`}
+                          className="group flex gap-3 items-center p-3 rounded-lg border hover:border-primary hover:bg-primary/5 transition-colors"
+                        >
+                          <img
+                            src={relTopic.image}
+                            alt={relTopic.title}
+                            className="w-16 h-16 object-cover rounded flex-shrink-0"
+                            loading="lazy"
+                            width="64"
+                            height="64"
+                          />
+                          <span className="text-sm font-medium group-hover:text-primary transition-colors leading-tight">
+                            {relTopic.title}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 {/* Links Internos Estratégicos */}
                 <section className="bg-primary/5 rounded-lg p-6">
                   <h3 className="text-xl font-bold mb-4 uppercase tracking-wide">
