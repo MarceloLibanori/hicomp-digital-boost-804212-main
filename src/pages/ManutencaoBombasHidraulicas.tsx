@@ -32,9 +32,9 @@ const ManutencaoBombasHidraulicas = () => {
   return (
     <>
       <SEOEnhanced
-        title="Manutenção de Bombas Hidráulicas em SP"
-        description="Manutenção e reparo de bombas hidráulicas industriais em São Paulo. Parker, Rexroth, Vickers. Diagnóstico grátis ☎ (11) 2619-5457"
-        keywords="manutenção de bombas hidráulicas, conserto de bomba hidráulica, reparo bomba hidráulica SP, manutenção bomba Parker, bomba hidráulica industrial"
+        title="Manutenção de Bombas Hidráulicas em SP | Parker, Rexroth, Vickers"
+        description="Manutenção e reparo de bombas hidráulicas Parker, Rexroth e Vickers em São Paulo. Diagnóstico grátis, garantia 90 dias. Orçamento em 24h ☎ (11) 2619-5457"
+        keywords="manutenção de bombas hidráulicas, conserto de bomba hidráulica, reparo bomba hidráulica SP, manutenção bomba Parker, bomba hidráulica industrial, reparo de bomba de pistão axial, bomba rexroth preço, troca de vedação bomba vickers"
         canonical="/manutencao-bombas-hidraulicas"
         ogType="website"
         structuredData={[serviceSchema, createBreadcrumbSchema(breadcrumbs)]}
@@ -378,9 +378,9 @@ const ManutencaoBombasHidraulicas = () => {
 
             {/* CTA Final */}
             <section className="bg-primary text-primary-foreground rounded-xl p-8 text-center">
-              <h2 className="text-2xl font-bold mb-4">Precisa de Manutenção em Bombas Hidráulicas?</h2>
+              <h2 className="text-2xl font-bold mb-4">Sua Bomba Hidráulica Apresenta Falhas?</h2>
               <p className="text-primary-foreground/90 mb-6">
-                Entre em contato agora e receba um diagnóstico técnico gratuito. Atendemos em São Paulo e todo o Brasil.
+                Não espere a parada total! Diagnóstico técnico gratuito + Orçamento em 24 horas. Atendimento prioritário para emergências em São Paulo e todo o Brasil.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" variant="secondary">
