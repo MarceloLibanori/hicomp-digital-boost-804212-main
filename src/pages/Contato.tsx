@@ -73,7 +73,7 @@ const Contato = () => {
     },
     {
       question: "Qual o horário de atendimento da HiComp?",
-      answer: "Atendemos de segunda a sexta das 8h às 18h e sábados das 8h às 12h. WhatsApp disponível 24h para receber suas mensagens."
+      answer: "Atendemos de segunda a sexta das 8h às 18h. WhatsApp disponível 24h para receber suas mensagens."
     },
     {
       question: "Vocês fazem manutenção em todo o Brasil?",
@@ -151,8 +151,7 @@ const Contato = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Horário de Atendimento</h3>
                       <p className="text-muted-foreground">
-                        <strong>Segunda a Sexta:</strong> 8h às 18h<br />
-                        <strong>Sábado:</strong> 8h às 12h
+                        <strong>Segunda a Sexta:</strong> 8h às 18h
                       </p>
                     </div>
                   </div>
