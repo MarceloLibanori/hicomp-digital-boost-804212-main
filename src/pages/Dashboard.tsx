@@ -10,7 +10,7 @@ import {
   ExternalLink, ChevronRight, TrendingUp, Globe, BookOpen,
   Bot, Code2, Search as SearchIcon, Megaphone, ClipboardList, Accessibility
 } from "lucide-react";
-import { FaWhatsapp } from "react-icons/fa";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import logo from "@/assets/logo.png";
 
 interface Lead {
@@ -357,7 +357,7 @@ const Dashboard = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-sm text-green-600 hover:text-green-700 font-medium transition-colors"
                   >
-                    <FaWhatsapp className="h-4 w-4" />
+                    <WhatsAppIcon className="h-4 w-4" />
                     WhatsApp (11) 99246-5636
                   </a>
                 </div>
@@ -717,7 +717,7 @@ const LeadRow = ({
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-green-600 hover:text-green-700"
             >
-              <FaWhatsapp className="h-3 w-3" />WhatsApp
+              <WhatsAppIcon className="h-3 w-3" />WhatsApp
             </a>
             {lead.service && <span>{lead.service}</span>}
             <span>{date}</span>

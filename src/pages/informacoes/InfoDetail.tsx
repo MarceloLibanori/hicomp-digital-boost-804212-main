@@ -6,7 +6,7 @@ import SEOEnhanced from "@/components/SEOEnhanced";
 import FAQSection from "@/components/FAQSection";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, Home, Tag, CheckCircle } from "lucide-react";
-import { FaWhatsapp } from 'react-icons/fa';
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { topics } from "@/data/topicsData";
 import type { TopicContent } from "@/data/topicContents";
 import { useEffect } from "react";
@@ -61,16 +61,7 @@ const InfoDetail = () => {
       .filter(Boolean) as typeof topics;
   }, [currentTopicData]);
 
-  // Resolve hashed asset URLs at build time; eager so image paths from topicContents resolve instantly
-  const imageMap = useMemo(() => {
-    const modules = import.meta.glob("/src/assets/**/*.{jpg,jpeg,png,webp,svg}", { eager: true }) as Record<string, { default: string } | string>;
-    const resolved: Record<string, string> = {};
-    for (const path in modules) {
-      const mod = modules[path];
-      resolved[path] = typeof mod === "string" ? mod : mod.default;
-    }
-    return resolved;
-  }, []);
+  // Images now served from /public/topics/ — no import.meta.glob needed
 
   useEffect(() => {
     if (!currentTopicData) {
@@ -214,7 +205,7 @@ const InfoDetail = () => {
               </Button>
               <Button variant="whatsapp" size="sm" asChild>
                 <a href="https://wa.me/5511992465636" target="_blank" rel="noopener noreferrer" aria-label="Abrir conversa no WhatsApp">
-                  <FaWhatsapp className="mr-2 inline h-4 w-4" />
+                  <WhatsAppIcon className="mr-2 inline h-4 w-4" />
                   Faça seu orçamento por Whatsapp
                 </a>
               </Button>
@@ -269,10 +260,10 @@ const InfoDetail = () => {
                     <div
                       key={idx}
                       className="aspect-square overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-zoom-in group relative"
-                      onClick={() => setSelectedImage(encodeURI(imageMap[imagePath] || imagePath))}
+                      onClick={() => setSelectedImage(encodeURI(imagePath))}
                     >
                       <img
-                        src={encodeURI(imageMap[imagePath] || imagePath)}
+                        src={encodeURI(imagePath)}
                         alt={`${currentTopicData.title} - Imagem ${idx + 1}`}
                         className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
                         loading="lazy"
@@ -620,7 +611,7 @@ const InfoDetail = () => {
                           disabled={formState === "submitting"}
                           className="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BA5A] disabled:opacity-70 text-white font-semibold py-2.5 rounded-md transition-colors text-sm"
                         >
-                          <FaWhatsapp className="h-4 w-4" />
+                          <WhatsAppIcon className="h-4 w-4" />
                           {formState === "submitting" ? "Abrindo WhatsApp..." : "Enviar pelo WhatsApp"}
                         </button>
                       </form>

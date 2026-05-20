@@ -19,10 +19,14 @@ const ManutencaoBombasHidraulicas = () => {
   );
 
   const faqItems = [
-    { question: "Quanto custa a manutenção de uma bomba hidráulica?", answer: "O custo varia conforme o modelo, marca e tipo de reparo necessário. A HiComp realiza diagnóstico técnico gratuito para fornecer um orçamento preciso. Entre em contato pelo (11) 2619-5457." },
-    { question: "Qual o prazo para manutenção de bombas hidráulicas?", answer: "O prazo médio é de 3 a 7 dias úteis, dependendo da complexidade do reparo e disponibilidade de peças. Em casos urgentes, oferecemos atendimento prioritário." },
-    { question: "Quais marcas de bombas hidráulicas vocês consertam?", answer: "Realizamos manutenção em bombas das principais marcas: Parker, Rexroth, Vickers, Denison, Eaton e HDA. Trabalhamos com bombas de engrenagem, pistão axial, pistão radial e palhetas." },
-    { question: "Vocês atendem em toda São Paulo?", answer: "Sim, atendemos em toda a Grande São Paulo e região metropolitana. Também realizamos envio e recebimento de equipamentos para todo o Brasil." },
+    { question: "Quanto custa a manutenção de uma bomba hidráulica?", answer: "O custo varia conforme o modelo, marca e tipo de reparo necessário. Bombas de engrenagem geralmente têm reparo mais simples, enquanto bombas de pistão axial exigem serviços mais especializados. A HiComp realiza diagnóstico técnico gratuito para fornecer um orçamento preciso antes de qualquer serviço. Entre em contato pelo (11) 2619-5457 ou WhatsApp (11) 99246-5636." },
+    { question: "Qual o prazo para reparo de bomba Parker ou Rexroth?", answer: "Para bombas Parker e Rexroth, o prazo médio é de 3 a 7 dias úteis, dependendo da complexidade do reparo e disponibilidade de peças. Nosso estoque próprio permite reparos mais ágeis. Em casos de parada de linha ou emergência industrial, oferecemos atendimento prioritário com prazo reduzido." },
+    { question: "Quando devo trocar o óleo da bomba hidráulica?", answer: "A troca de óleo hidráulico deve ser feita a cada 2000 horas de operação ou conforme recomendação do fabricante. Sinais de óleo degradado incluem mudança de cor, presença de partículas metálicas, aquecimento excessivo e perda de viscosidade. A HiComp realiza análise de óleo para determinar o momento ideal de troca." },
+    { question: "Como identificar vazamento em bomba de pistão?", answer: "Vazamentos em bombas de pistão são identificados por: óleo aparecendo no eixo de acionamento, manchas de óleo na carcaça externa, perda gradual de pressão no sistema, e presença de óleo no respiro da bomba. Se identificar qualquer desses sinais, suspenda a operação e solicite inspeção técnica para evitar danos maiores." },
+    { question: "Vale a pena reformar ou comprar bomba nova?", answer: "A reforma é viável quando o custo é inferior a 60% do valor de uma bomba nova e o bloco da bomba não apresenta trincas ou desgaste excessivo. A HiComp avalia cada caso individualmente e apresenta ambas as opções com análise de custo-benefício transparente. Em muitos casos, a reforma com peças originais entrega desempenho equivalente a uma bomba nova." },
+    { question: "Vocês oferecem garantia na manutenção de bombas?", answer: "Sim, oferecemos garantia de 90 dias para serviços de manutenção e reparo de bombas hidráulicas. A garantia cobre defeitos de mão de obra e peças substituídas. Além disso, fornecemos laudo técnico completo com especificações de pressão, vazão e testes realizados." },
+    { question: "Atendem regime de urgência para parada de linha?", answer: "Sim, temos atendimento emergencial 24 horas para casos de parada de linha industrial. Nossa equipe técnica mobiliza recursos prioritários e, quando possível, disponibiliza bombas de backup enquanto o reparo definitivo é realizado. Entre em contato pelo (11) 99246-5636 para emergências." },
+    { question: "Quais marcas de bombas hidráulicas vocês reparam?", answer: "Realizamos manutenção especializada em bombas das principais marcas: Parker Hannifin, Bosch Rexroth, Vickers (Eaton), Denison, HDA, Casappa e Hydromatic. Trabalhamos com todos os tipos: bombas de engrenagem externa e interna, pistão axial de deslocamento fixo e variável, pistão radial e palhetas simples e duplas." },
   ];
 
   return (
@@ -99,6 +103,61 @@ const ManutencaoBombasHidraulicas = () => {
 
             <section className="mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                Quando Você Precisa de Manutenção de Bomba Hidráulica
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Identificar os sinais de falha em uma bomba hidráulica pode evitar paradas não programadas e
+                prejuízos significativos. Os principais sintomas que indicam necessidade de manutenção incluem:
+              </p>
+              <div className="grid md:grid-cols-2 gap-4 mb-6">
+                <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-4">
+                  <h3 className="font-semibold text-foreground mb-2">Sintomas Mecânicos</h3>
+                  <ul className="space-y-1 text-sm text-muted-foreground">
+                    <li>• Ruídos anormais (cavitação, rangidos, batidas)</li>
+                    <li>• Vibração excessiva no acoplamento ou carcaça</li>
+                    <li>• Vazamento de óleo pelo eixo ou juntas</li>
+                    <li>• Superaquecimento da bomba ou do óleo</li>
+                  </ul>
+                </div>
+                <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-4">
+                  <h3 className="font-semibold text-foreground mb-2">Sintomas de Performance</h3>
+                  <ul className="space-y-1 text-sm text-muted-foreground">
+                    <li>• Perda de pressão no sistema hidráulico</li>
+                    <li>• Redução de vazão ou velocidade dos cilindros</li>
+                    <li>• Tempo de ciclo da máquina aumentado</li>
+                    <li>• Consumo energético acima do normal</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                <strong>Indústrias de transformação plástica</strong> que operam injetoras e extrusoras não podem
+                tolerar oscilações de pressão — uma bomba desgastada afeta diretamente a qualidade das peças produzidas.
+                Na <strong>siderurgia e metalurgia</strong>, bombas de pistão que alimentam prensas de grande porte
+                exigem vazão e pressão constantes para garantir conformação adequada do material.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                No setor de <strong>mineração</strong>, onde equipamentos pesados operam em condições severas,
+                a contaminação do óleo por partículas é comum e acelera o desgaste interno das bombas. Já na
+                <strong> construção civil</strong>, guindastes e plataformas elevatórias dependem de bombas
+                hidráulicas confiáveis para segurança dos operadores.
+              </p>
+              <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4">
+                <h3 className="font-semibold text-foreground mb-2 flex items-center gap-2">
+                  <Clock className="h-5 w-5 text-yellow-600" />
+                  Consequências de Não Agir
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Ignorar sintomas iniciais de falha pode resultar em danos em cascata: uma bomba com vazamento
+                  interno gera calor excessivo, degradando o óleo e danificando válvulas e vedações de cilindros.
+                  O custo de reparo pode aumentar em até 300% quando a falha se agrava. Além disso, paradas não
+                  programadas custam em média R$ 5.000 a R$ 50.000 por dia em grandes indústrias, sem contar
+                  riscos à segurança dos colaboradores.
+                </p>
+              </div>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
                 Tipos de Bombas Hidráulicas que Reparamos
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
@@ -137,6 +196,137 @@ const ManutencaoBombasHidraulicas = () => {
                   </li>
                 ))}
               </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                Como Funciona o Serviço de Manutenção de Bombas Hidráulicas
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                O processo de manutenção de bombas hidráulicas na HiComp segue uma metodologia estruturada
+                que garante diagnóstico preciso e reparo de qualidade:
+              </p>
+              <div className="space-y-4 mb-6">
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">1</div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Recebimento e Inspeção Inicial (1 hora)</h3>
+                    <p className="text-sm text-muted-foreground">Recebemos a bomba, registramos modelo e número de série, e realizamos inspeção visual para identificar danos externos, vazamentos e sinais de operação inadequada.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">2</div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Desmontagem e Diagnóstico Técnico (2-4 horas)</h3>
+                    <p className="text-sm text-muted-foreground">Desmontamos completamente a bomba, medimos desgastes internos com micrômetros e relógios comparadores, identificamos componentes danificados e elaboramos o orçamento detalhado com fotos e medições.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">3</div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Aprovação e Execução do Reparo (2-5 dias)</h3>
+                    <p className="text-sm text-muted-foreground">Após aprovação do orçamento, iniciamos a substituição de vedações, rolamentos, retentores e peças desgastadas. Realizamos retífica de placas de desgaste quando necessário e limpeza ultrassônica de todos os componentes.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">4</div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Montagem e Testes de Bancada (4-8 horas)</h3>
+                    <p className="text-sm text-muted-foreground">Montamos a bomba com torques especificados pelo fabricante, realizamos testes de pressão, vazão e temperatura em bancada hidráulica. Verificamos ausência de vazamentos e ruídos anormais em diferentes condições de carga.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">5</div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-1">Laudo Técnico e Entrega</h3>
+                    <p className="text-sm text-muted-foreground">Emitimos laudo técnico completo com curvas de pressão x vazão, fotos do antes e depois, peças substituídas e recomendações de uso. A bomba é embalada adequadamente e está pronta para retirada ou envio.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-muted/50 rounded-lg p-6">
+                <h3 className="font-semibold text-foreground mb-2">Diferenciais HiComp no Reparo de Bombas</h3>
+                <ul className="grid md:grid-cols-2 gap-2 text-sm text-muted-foreground">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span>Bancada de testes calibrada para bombas até 350 bar</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span>Estoque próprio de kits de vedação Parker e Rexroth</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span>Técnicos com certificação em hidráulica industrial</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span>Garantia de 90 dias em peças e mão de obra</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span>Orçamento gratuito em até 24 horas após recebimento</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                    <span>Atendimento prioritário para paradas de linha</span>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                Marcas e Modelos de Bombas Atendidos
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                A HiComp trabalha com as principais marcas de bombas hidráulicas do mercado global. Nossa equipe
+                técnica possui treinamento específico e acesso a documentação técnica original para cada fabricante:
+              </p>
+              <div className="overflow-x-auto mb-6">
+                <table className="w-full border-collapse">
+                  <thead>
+                    <tr className="bg-muted">
+                      <th className="border border-border p-3 text-left text-sm font-semibold">Marca</th>
+                      <th className="border border-border p-3 text-left text-sm font-semibold">Tipos Atendidos</th>
+                      <th className="border border-border p-3 text-left text-sm font-semibold">Disponibilidade de Peças</th>
+                      <th className="border border-border p-3 text-left text-sm font-semibold">Prazo Médio</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-sm">
+                    <tr>
+                      <td className="border border-border p-3 font-medium">Parker Hannifin</td>
+                      <td className="border border-border p-3 text-muted-foreground">PV, PAVC, PVP, Série F, Série P</td>
+                      <td className="border border-border p-3 text-muted-foreground">Alta - Estoque local</td>
+                      <td className="border border-border p-3 text-muted-foreground">3-5 dias</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-border p-3 font-medium">Bosch Rexroth</td>
+                      <td className="border border-border p-3 text-muted-foreground">A10VSO, A4VG, A7VO, A10VNO</td>
+                      <td className="border border-border p-3 text-muted-foreground">Alta - Estoque local</td>
+                      <td className="border border-border p-3 text-muted-foreground">3-5 dias</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-border p-3 font-medium">Vickers (Eaton)</td>
+                      <td className="border border-border p-3 text-muted-foreground">PVH, PVB, PVQ, PFB, GPM</td>
+                      <td className="border border-border p-3 text-muted-foreground">Média - 2-7 dias</td>
+                      <td className="border border-border p-3 text-muted-foreground">4-7 dias</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-border p-3 font-medium">Denison</td>
+                      <td className="border border-border p-3 text-muted-foreground">T6, T7, PV, Série Gold Cup</td>
+                      <td className="border border-border p-3 text-muted-foreground">Média - 3-10 dias</td>
+                      <td className="border border-border p-3 text-muted-foreground">5-10 dias</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                <strong>Garantia oferecida:</strong> Todos os reparos incluem garantia de 90 dias contra defeitos
+                de mão de obra e peças substituídas. Para bombas reformadas com kits originais completos (pistões,
+                placas, vedações e rolamentos), oferecemos garantia estendida de 6 meses. A garantia cobre
+                retrabalho e substituição de componentes defeituosos, mas não cobre danos causados por operação
+                inadequada, contaminação do óleo ou uso fora das especificações técnicas.
+              </p>
             </section>
 
             <section className="mb-12">

@@ -5,7 +5,7 @@ import SEOEnhanced from "@/components/SEOEnhanced";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Clock, Building2, ShieldCheck, Truck, Send, CheckCircle } from "lucide-react";
-import { FaWhatsapp } from 'react-icons/fa';
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { generateContactPageSchema, generateLocalBusinessSchema, generateBreadcrumbSchema } from "@/utils/seoSchemas";
 
 type FormState = "idle" | "submitting" | "success" | "error";
@@ -287,7 +287,7 @@ const Contato = () => {
                             "Enviando..."
                           ) : (
                             <>
-                              <FaWhatsapp className="mr-2 h-5 w-5" aria-hidden="true" />
+                              <WhatsAppIcon className="mr-2 h-5 w-5" aria-hidden="true" />
                               Enviar pelo WhatsApp
                             </>
                           )}

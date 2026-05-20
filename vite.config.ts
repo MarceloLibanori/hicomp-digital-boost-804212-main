@@ -36,7 +36,6 @@ export default defineConfig(({ mode }) => ({
           ],
           "vendor-seo": ["react-helmet-async"],
           "vendor-forms": ["react-hook-form", "@hookform/resolvers", "zod"],
-          "vendor-icons": ["react-icons"],
         },
       },
     },

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
-import { FaWhatsapp } from 'react-icons/fa';
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 const CTASection = () => {
   return (
@@ -33,7 +33,7 @@ const CTASection = () => {
                 aria-label="Abrir conversa no WhatsApp"
                 className="flex items-center"
               >
-                <FaWhatsapp className="mr-2 h-5 w-5" />
+                <WhatsAppIcon className="mr-2 h-5 w-5" />
                 Fale conosco pelo WhatsApp
               </a>
             </Button>

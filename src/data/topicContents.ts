@@ -13,10 +13,10 @@ export const topicContents: Record<string, TopicContent> = {
   "atuadores-hidraulicos": {
     introduction: "Se você está procurando por <strong>Atuadores hidráulicos</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>Atuadores hidráulicos</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/atuadores-01.jpg",
-      "/src/assets/atuadores-02.jpg",
-      "/src/assets/atuadores-03.jpg",
-      "/src/assets/atuadores-04.jpg"
+      "/topics/atuadores-01.jpg",
+      "/topics/atuadores-02.jpg",
+      "/topics/atuadores-03.jpg",
+      "/topics/atuadores-04.jpg"
     ],
     mainContent: [
       "<p>Como parte protagonista de máquinas injetoras, prensas, sopradoras, tratores e escavadeiras, os <strong>atuadores hidráulicos</strong> têm a função de aplicar energia mecânica, fazendo-o funcionar. No entanto, atuam na transformação da energia de trabalho em energia mecânica.</p>",
@@ -75,13 +75,13 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>bomba hidráulica parker</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>bomba hidráulica parker</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/bomba_hidraulica/bomba-hidraulica-parker-01.jpg",
-      "/src/assets/bomba_hidraulica/bomba-hidraulica-parker-02.jpg",
-      "/src/assets/bomba_hidraulica/bomba-hidraulica-parker-03.jpg",
-      "/src/assets/bomba_hidraulica/bomba-hidraulica-parker-04.jpg",
-      "/src/assets/bomba_hidraulica/bomba-hidraulica-parker-05.jpg",
-      "/src/assets/bomba_hidraulica/bomba-hidraulica-parker-06.jpg",
-      "/src/assets/bomba_hidraulica/bomba-hidraulica-parker-07.jpg",
+      "/topics/bomba_hidraulica/bomba-hidraulica-parker-01.jpg",
+      "/topics/bomba_hidraulica/bomba-hidraulica-parker-02.jpg",
+      "/topics/bomba_hidraulica/bomba-hidraulica-parker-03.jpg",
+      "/topics/bomba_hidraulica/bomba-hidraulica-parker-04.jpg",
+      "/topics/bomba_hidraulica/bomba-hidraulica-parker-05.jpg",
+      "/topics/bomba_hidraulica/bomba-hidraulica-parker-06.jpg",
+      "/topics/bomba_hidraulica/bomba-hidraulica-parker-07.jpg",
     ],
     mainContent: [
       "A <strong>bomba hidráulica parker</strong> é uma das melhores bombas existentes no mercado. Essas bombas podem ser de outros tipos, além de hidráulicas, sendo usadas em diversas aplicações, como combustível, óleo, lubrificação, transferência de fluidos, e em usos aeroespaciais, tanto para sistemas de circuito aberto quanto para sistemas de circuito fechado. Seguem mais informações a respeito de uma <strong>bomba hidráulica parker</strong>.",
@@ -130,14 +130,14 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>bomba hidráulica rexroth</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>bomba hidráulica rexroth</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-01.jpg",
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-02.jpg",
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-03.jpg",
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-04.jpg",
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-05.jpg",
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-06.jpg",
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-07.jpg",
-      "/src/assets/bomba_rexroth/bomba-hidraulica-rexroth-08.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-01.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-02.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-03.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-04.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-05.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-06.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-07.jpg",
+      "/topics/bomba_rexroth/bomba-hidraulica-rexroth-08.jpg",
     ],
     mainContent: [
       "<h2>CONHEÇA BOMBA HIDRÁULICA REXROTH</h2>",
@@ -202,14 +202,14 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>bomba hidráulica vickers</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>bomba hidráulica vickers</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-01.jpg",
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-02.jpg",
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-03.jpg",
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-04.jpg",
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-05.jpg",
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-06.jpg",
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-07.jpg",
-      "/src/assets/bomba_vickers/bomba-hidraulica-vickers-08.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-01.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-02.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-03.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-04.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-05.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-06.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-07.jpg",
+      "/topics/bomba_vickers/bomba-hidraulica-vickers-08.jpg",
     ],
     mainContent: [
       "<h2>CONHEÇA BOMBA HIDRÁULICA VICKERS</h2>",
@@ -273,12 +273,12 @@ export const topicContents: Record<string, TopicContent> = {
   "cilindro-hidraulico": {
     introduction: "Cilindros hidráulicos convertem energia hidráulica em movimento linear. São amplamente utilizados em máquinas industriais, equipamentos móveis e sistemas de automação para realizar tarefas de elevação, empurrão e tração.",
     images: [
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-01.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-02.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-03.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-04.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-05.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-06.webp"
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-01.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-02.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-03.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-04.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-05.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-06.webp"
     ],
 
     mainContent: [
@@ -315,12 +315,12 @@ export const topicContents: Record<string, TopicContent> = {
   "cilindro-hidraulico-para-pensa": {
     introduction: "Se você está procurando por <strong>cilindro hidráulico para prensa</strong>, você veio ao lugar certo! A HiComp é especializada em cilindro hidráulico para prensa e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-01.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-02.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-03.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-04.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-05.webp",
-      "/src/assets/cilindro_hidraulico/cilindro-hidraulico-06.webp"
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-01.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-02.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-03.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-04.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-05.webp",
+      "/topics/cilindro_hidraulico/cilindro-hidraulico-06.webp"
     ],
 
     mainContent: [
@@ -359,9 +359,9 @@ export const topicContents: Record<string, TopicContent> = {
   "cilindro-hidraulico-rexroth": {
     introduction: "<p>Se você está procurando por <strong>cilindros hidráulicos rexroth</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>cilindros hidráulicos rexroth</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
-      "/src/assets/cilindro_hidraulico_rexroth/cilindros-hidraulicos-rexroth-01.webp",
-      "/src/assets/cilindro_hidraulico_rexroth/cilindros-hidraulicos-rexroth-02.webp",
-      "/src/assets/cilindro_hidraulico_rexroth/cilindros-hidraulicos-rexroth-03.webp",
+      "/topics/cilindro_hidraulico_rexroth/cilindros-hidraulicos-rexroth-01.webp",
+      "/topics/cilindro_hidraulico_rexroth/cilindros-hidraulicos-rexroth-02.webp",
+      "/topics/cilindro_hidraulico_rexroth/cilindros-hidraulicos-rexroth-03.webp",
     ],
     mainContent: [
       "<p>Um cilindro hidráulico é uma peça mecânica utilizada para aplicar força através de um percurso linear. Ele também é conhecido como motor hidráulico linear. Entre os diferentes tipos de cilindros no mercado, os <strong>cilindros hidráulicos rexroth</strong> são a melhor opção, oferecendo um ótimo custo-benefício aliado à qualidade superior. Seguem informações sobre a forma de operação dos <strong>cilindros hidráulicos rexroth</strong>.</p>",
@@ -390,9 +390,9 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>cilindros hidráulicos vickers</strong>, você veio ao lugar certo! A HiComp é especializada em cilindros hidráulicos vickers e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/cilindro_hidraulico_vickers/cilindros-hidraulicos-vickers-01.webp",
-      "/src/assets/cilindro_hidraulico_vickers/cilindros-hidraulicos-vickers-02.webp",
-      "/src/assets/cilindro_hidraulico_vickers/cilindros-hidraulicos-vickers-03.webp",
+      "/topics/cilindro_hidraulico_vickers/cilindros-hidraulicos-vickers-01.webp",
+      "/topics/cilindro_hidraulico_vickers/cilindros-hidraulicos-vickers-02.webp",
+      "/topics/cilindro_hidraulico_vickers/cilindros-hidraulicos-vickers-03.webp",
     ],
     mainContent: [
       "<p>O cilindro hidráulico é uma ferramenta utilizada para transformar energia hidráulica em energia mecânica. São comumente utilizados em indústrias de diversos segmentos, principalmente como componente de sistemas articulados de maquinários.<br /></p>",
@@ -435,14 +435,14 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>fábrica de bombas hidráulicas</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>fábrica de bombas hidráulicas</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-01.webp",
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-02.webp",
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-03.webp",
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-04.webp",
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-05.webp",
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-06.webp",
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-07.webp",
-      "/src/assets/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-08.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-01.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-02.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-03.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-04.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-05.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-06.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-07.webp",
+      "/topics/fabrica_de_bomba_hidraulica/fabrica-bombas-hidraulicas-08.webp",
 
     ],
     mainContent: [
@@ -472,16 +472,16 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>fábrica de cilindros hidráulicos</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>fábrica de cilindros hidráulicos</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-01.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-02.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-03.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-04.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-05.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-06.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-07.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-08.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-09.webp",
-      "/src/assets/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-10.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-01.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-02.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-03.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-04.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-05.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-06.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-07.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-08.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-09.webp",
+      "/topics/fabrica_cilindros_hidraulicos/fabrica-cilindros-hidraulicos-10.webp",
 
     ],
     mainContent: [
@@ -515,11 +515,11 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>Loja de bombas hidráulicas</strong>, você veio ao lugar certo! A Hicomp Hidráulica é especializada em <strong>loja de bombas hidráulicas</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/loja_bombas_hidraulicas/loja-bombas-hidraulicas-01.webp",
-      "/src/assets/loja_bombas_hidraulicas/loja-bombas-hidraulicas-02.webp",
-      "/src/assets/loja_bombas_hidraulicas/loja-bombas-hidraulicas-03.webp",
-      "/src/assets/loja_bombas_hidraulicas/loja-bombas-hidraulicas-04.webp",
-      "/src/assets/loja_bombas_hidraulicas/loja-bombas-hidraulicas-05.webp",
+      "/topics/loja_bombas_hidraulicas/loja-bombas-hidraulicas-01.webp",
+      "/topics/loja_bombas_hidraulicas/loja-bombas-hidraulicas-02.webp",
+      "/topics/loja_bombas_hidraulicas/loja-bombas-hidraulicas-03.webp",
+      "/topics/loja_bombas_hidraulicas/loja-bombas-hidraulicas-04.webp",
+      "/topics/loja_bombas_hidraulicas/loja-bombas-hidraulicas-05.webp",
 
 
     ],
@@ -556,11 +556,11 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>manutenção de bloco manifold</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>manutenção de bloco manifold</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/manutencao_de_bloco_manifold/manutencao-bloco-manifold-01.webp",
-      "/src/assets/manutencao_de_bloco_manifold/manutencao-bloco-manifold-02.webp",
-      "/src/assets/manutencao_de_bloco_manifold/manutencao-bloco-manifold-03.webp",
-      "/src/assets/manutencao_de_bloco_manifold/manutencao-bloco-manifold-04.webp",
-      "/src/assets/manutencao_de_bloco_manifold/manutencao-bloco-manifold-05.webp",
+      "/topics/manutencao_de_bloco_manifold/manutencao-bloco-manifold-01.webp",
+      "/topics/manutencao_de_bloco_manifold/manutencao-bloco-manifold-02.webp",
+      "/topics/manutencao_de_bloco_manifold/manutencao-bloco-manifold-03.webp",
+      "/topics/manutencao_de_bloco_manifold/manutencao-bloco-manifold-04.webp",
+      "/topics/manutencao_de_bloco_manifold/manutencao-bloco-manifold-05.webp",
 
 
     ],
@@ -609,10 +609,10 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "Se você está procurando por <strong>manutenção de cilindros hidráulicos</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>manutenção de cilindros hidráulicos</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!",
     images: [
-      "/src/assets/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-01.webp",
-      "/src/assets/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-02.webp",
-      "/src/assets/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-03.webp",
-      "/src/assets/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-04.webp",
+      "/topics/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-01.webp",
+      "/topics/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-02.webp",
+      "/topics/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-03.webp",
+      "/topics/manutencao_de_cilindro_hidraulicos/manutencao-cilindros-hidraulicos-04.webp",
 
 
     ],
@@ -670,14 +670,14 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "<p>Se você está procurando por <strong>motor hidráulico parker</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>motor hidráulico parker</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-01.webp",
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-02.webp",
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-03.webp",
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-04.webp",
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-05.webp",
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-06.webp",
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-07.webp",
-      "/src/assets/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-08.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-01.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-02.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-03.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-04.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-05.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-06.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-07.webp",
+      "/topics/motor-hidraulico-parker–hicomp-hidraulica/motor-hidraulico-parker-08.webp",
     ],
     mainContent: [
       "<p>Se você está procurando por <strong>motor hidráulico parker</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>motor hidráulico parker</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
@@ -717,12 +717,12 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       "<p>Se você está procurando por <strong>motor hidráulico rexroth</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>motor hidráulico rexroth</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
-      "/src/assets/motor_hidraulico_rexroth/motor-hidraulico-rexroth-01.webp",
-      "/src/assets/motor_hidraulico_rexroth/motor-hidraulico-rexroth-02.webp",
-      "/src/assets/motor_hidraulico_rexroth/motor-hidraulico-rexroth-03.webp",
-      "/src/assets/motor_hidraulico_rexroth/motor-hidraulico-rexroth-04.webp",
-      "/src/assets/motor_hidraulico_rexroth/motor-hidraulico-rexroth-05.webp",
-      "/src/assets/motor_hidraulico_rexroth/motor-hidraulico-rexroth-06.webp",
+      "/topics/motor_hidraulico_rexroth/motor-hidraulico-rexroth-01.webp",
+      "/topics/motor_hidraulico_rexroth/motor-hidraulico-rexroth-02.webp",
+      "/topics/motor_hidraulico_rexroth/motor-hidraulico-rexroth-03.webp",
+      "/topics/motor_hidraulico_rexroth/motor-hidraulico-rexroth-04.webp",
+      "/topics/motor_hidraulico_rexroth/motor-hidraulico-rexroth-05.webp",
+      "/topics/motor_hidraulico_rexroth/motor-hidraulico-rexroth-06.webp",
 
     ],
     mainContent: [
@@ -763,15 +763,15 @@ export const topicContents: Record<string, TopicContent> = {
     introduction:
       " <p>Se você está procurando por <strong>motor hidráulico sauer danfoss</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>motor hidráulico sauer danfoss</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-01.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-02.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-03.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-04.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-05.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-06.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-07.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-08.webp",
-      "/src/assets/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-09.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-01.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-02.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-03.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-04.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-05.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-06.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-07.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-08.webp",
+      "/topics/motor_hidraulico_sauer_danfoss/motor-hidraulico-sauer-danfoss-09.webp",
 
 
     ],
@@ -811,12 +811,12 @@ export const topicContents: Record<string, TopicContent> = {
       " <p>Se você está procurando por <strong>motor hidráulico vickers</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>motor hidráulico vickers</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/motor-hidraulico-vickers/motor-hidraulico-vickers-01.webp",
-      "/src/assets/motor-hidraulico-vickers/motor-hidraulico-vickers-02.webp",
-      "/src/assets/motor-hidraulico-vickers/motor-hidraulico-vickers-03.webp",
-      "/src/assets/motor-hidraulico-vickers/motor-hidraulico-vickers-04.webp",
-      "/src/assets/motor-hidraulico-vickers/motor-hidraulico-vickers-05.webp",
-      "/src/assets/motor-hidraulico-vickers/motor-hidraulico-vickers-06.webp",
+      "/topics/motor-hidraulico-vickers/motor-hidraulico-vickers-01.webp",
+      "/topics/motor-hidraulico-vickers/motor-hidraulico-vickers-02.webp",
+      "/topics/motor-hidraulico-vickers/motor-hidraulico-vickers-03.webp",
+      "/topics/motor-hidraulico-vickers/motor-hidraulico-vickers-04.webp",
+      "/topics/motor-hidraulico-vickers/motor-hidraulico-vickers-05.webp",
+      "/topics/motor-hidraulico-vickers/motor-hidraulico-vickers-06.webp",
 
 
 
@@ -857,10 +857,10 @@ export const topicContents: Record<string, TopicContent> = {
       " <p>Se você está procurando por <strong>reparo de bloco manifold</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>reparo de bloco manifold</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/reparo-de-bloco-manifold/reparo-bloco-manifold-01.webp",
-      "/src/assets/reparo-de-bloco-manifold/reparo-bloco-manifold-02.webp",
-      "/src/assets/reparo-de-bloco-manifold/reparo-bloco-manifold-03.webp",
-      "/src/assets/reparo-de-bloco-manifold/reparo-bloco-manifold-04.webp",
+      "/topics/reparo-de-bloco-manifold/reparo-bloco-manifold-01.webp",
+      "/topics/reparo-de-bloco-manifold/reparo-bloco-manifold-02.webp",
+      "/topics/reparo-de-bloco-manifold/reparo-bloco-manifold-03.webp",
+      "/topics/reparo-de-bloco-manifold/reparo-bloco-manifold-04.webp",
 
 
 
@@ -910,13 +910,13 @@ export const topicContents: Record<string, TopicContent> = {
       " <p>Se você está procurando por <strong>reparo de cilindros hidráulicos</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>reparo de cilindros hidráulicos</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-01.webp",
-      "/src/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-03.webp",
-      "/src/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-04.webp",
-      "/src/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-05.webp",
-      "/src/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-06.webp",
-      "/src/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-07.webp",
-      "/src/assets/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-08.webp",
+      "/topics/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-01.webp",
+      "/topics/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-03.webp",
+      "/topics/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-04.webp",
+      "/topics/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-05.webp",
+      "/topics/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-06.webp",
+      "/topics/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-07.webp",
+      "/topics/reparo-de-cilindros-hidraulicos/reparo-cilindros-hidraulicos-08.webp",
 
 
 
@@ -988,10 +988,10 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>reparo de unidades hidráulicas</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>reparo de unidades hidráulicas</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-01.webp",
-      "/src/assets/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-02.webp",
-      "/src/assets/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-03.webp",
-      "/src/assets/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-04.webp",
+      "/topics/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-01.webp",
+      "/topics/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-02.webp",
+      "/topics/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-03.webp",
+      "/topics/reparo-de-unidades-hidraulicas/reparo-unidades-hidraulicas-04.webp",
 
 
 
@@ -1036,17 +1036,17 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-01.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-02.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-03.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-04.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-05.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-06.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-08.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-09.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-10.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-11.webp",
-      "/src/assets/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-12.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-01.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-02.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-03.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-04.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-05.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-06.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-08.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-09.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-10.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-11.webp",
+      "/topics/valvula-direcional-bosch-rexroth/valvula-direcional-bosch-rexroth-12.webp",
 
 
     ],
@@ -1090,11 +1090,11 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>válvula direcional parker</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>válvula direcional parker</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/valvula-direcional-parker/valvula-direcional-parker-01.webp",
-      "/src/assets/valvula-direcional-parker/valvula-direcional-parker-02.webp",
-      "/src/assets/valvula-direcional-parker/valvula-direcional-parker-03.webp",
-      "/src/assets/valvula-direcional-parker/valvula-direcional-parker-04.webp",
-      "/src/assets/valvula-direcional-parker/valvula-direcional-parker-05.webp",
+      "/topics/valvula-direcional-parker/valvula-direcional-parker-01.webp",
+      "/topics/valvula-direcional-parker/valvula-direcional-parker-02.webp",
+      "/topics/valvula-direcional-parker/valvula-direcional-parker-03.webp",
+      "/topics/valvula-direcional-parker/valvula-direcional-parker-04.webp",
+      "/topics/valvula-direcional-parker/valvula-direcional-parker-05.webp",
 
 
 
@@ -1150,17 +1150,17 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-01.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-02.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-03.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-04.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-05.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-06.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-07.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-08.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-09.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-10.webp",
-      "/src/assets/valvula-direcional-vickers/valvula-direcional-vickers-11.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-01.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-02.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-03.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-04.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-05.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-06.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-07.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-08.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-09.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-10.webp",
+      "/topics/valvula-direcional-vickers/valvula-direcional-vickers-11.webp",
 
 
 
@@ -1199,16 +1199,16 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>válvula hidráulica parker</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>válvula hidráulica parker</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-01.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-02.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-03.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-04.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-05.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-06.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-07.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-08.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-09.webp",
-      "/src/assets/valvula-hidraulica-parker/valvula-hidraulica-parker-10.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-01.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-02.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-03.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-04.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-05.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-06.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-07.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-08.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-09.webp",
+      "/topics/valvula-hidraulica-parker/valvula-hidraulica-parker-10.webp",
 
 
 
@@ -1253,14 +1253,14 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>válvula hidráulica rexroth</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>válvula hidráulica rexroth</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-01.webp",
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-02.webp",
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-03.webp",
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-04.webp",
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-05.webp",
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-06.webp",
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-07.webp",
-      "/src/assets/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-08.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-01.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-02.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-03.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-04.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-05.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-06.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-07.webp",
+      "/topics/valvula-hidraulica-rexroth/valvula-hidraulica-rexroth-08.webp",
 
 
 
@@ -1314,14 +1314,14 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>válvula hidráulica vickers</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>válvula hidráulica vickers</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-01.webp",
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-02.webp",
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-03.webp",
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-04.webp",
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-05.webp",
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-06.webp",
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-07.webp",
-      "/src/assets/valvula-hidraulica-vickers/valvula-hidraulica-vickers-08.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-01.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-02.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-03.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-04.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-05.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-06.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-07.webp",
+      "/topics/valvula-hidraulica-vickers/valvula-hidraulica-vickers-08.webp",
 
 
     ],
@@ -1370,11 +1370,11 @@ export const topicContents: Record<string, TopicContent> = {
       " <p>Se você está procurando por <strong>válvula reguladora de pressão vickers</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>válvula reguladora de pressão vickers</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-01.webp",
-      "/src/assets/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-02.webp",
-      "/src/assets/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-03.webp",
-      "/src/assets/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-04.webp",
-      "/src/assets/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-05.webp",
+      "/topics/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-01.webp",
+      "/topics/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-02.webp",
+      "/topics/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-03.webp",
+      "/topics/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-04.webp",
+      "/topics/valvula-reguladora-de-pressao-vickers/valvula-reguladora-pressao-vickers-05.webp",
 
 
 
@@ -1439,14 +1439,14 @@ export const topicContents: Record<string, TopicContent> = {
       " <p>Se você está procurando por <strong>válvulas proporcionais hidráulicas</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>válvulas proporcionais hidráulicas</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-01.webp",
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-02.webp",
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-03.webp",
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-04.webp",
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-05.webp",
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-06.webp",
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-07.webp",
-      "/src/assets/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-08.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-01.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-02.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-03.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-04.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-05.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-06.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-07.webp",
+      "/topics/valvulas-proporcionais-hidraulicas/valvulas-proporcionais-hidraulicas-08.webp",
 
 
     ],
@@ -1497,17 +1497,17 @@ export const topicContents: Record<string, TopicContent> = {
       " <p>Se você está procurando por <strong>venda de bombas hidráulicas</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>venda de bombas hidráulicas</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-01.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-02.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-03.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-04.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-05.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-06.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-07.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-08.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-09.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-10.webp",
-      "/src/assets/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-11.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-01.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-02.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-03.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-04.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-05.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-06.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-07.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-08.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-09.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-10.webp",
+      "/topics/venda-de-bombas-hidraulicas/venda-bombas-hidraulicas-11.webp",
 
 
     ],
@@ -1554,18 +1554,18 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-01.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-02.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-03.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-04.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-05.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-06.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-07.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-08.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-09.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-10.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-11.webp",
-      "/src/assets/valvulas-direcionais/valvulas-direcionais-12.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-01.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-02.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-03.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-04.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-05.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-06.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-07.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-08.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-09.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-10.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-11.webp",
+      "/topics/valvulas-direcionais/valvulas-direcionais-12.webp",
 
 
     ],
@@ -1620,11 +1620,11 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-preco/cilindro-hidraulico-preco-01.webp",
-      "/src/assets/cilindro-hidraulico-preco/cilindro-hidraulico-preco-02.webp",
-      "/src/assets/cilindro-hidraulico-preco/cilindro-hidraulico-preco-03.webp",
-      "/src/assets/cilindro-hidraulico-preco/cilindro-hidraulico-preco-04.webp",
-      "/src/assets/cilindro-hidraulico-preco/cilindro-hidraulico-preco-05.webp",
+      "/topics/cilindro-hidraulico-preco/cilindro-hidraulico-preco-01.webp",
+      "/topics/cilindro-hidraulico-preco/cilindro-hidraulico-preco-02.webp",
+      "/topics/cilindro-hidraulico-preco/cilindro-hidraulico-preco-03.webp",
+      "/topics/cilindro-hidraulico-preco/cilindro-hidraulico-preco-04.webp",
+      "/topics/cilindro-hidraulico-preco/cilindro-hidraulico-preco-05.webp",
 
 
     ],
@@ -1657,11 +1657,11 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-01.webp",
-      "/src/assets/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-02.webp",
-      "/src/assets/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-03.webp",
-      "/src/assets/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-04.webp",
-      "/src/assets/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-05.webp",
+      "/topics/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-01.webp",
+      "/topics/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-02.webp",
+      "/topics/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-03.webp",
+      "/topics/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-04.webp",
+      "/topics/conserto-cilindros-hidraulicos/conserto-cilindros-hidraulicos-05.webp",
 
 
     ],
@@ -1699,17 +1699,17 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>empresa de bombas hidráulicas</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>empresa de bombas hidráulicas</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-01.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-02.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-03.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-04.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-05.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-06.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-07.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-08.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-09.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-10.webp",
-      "/src/assets/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-11.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-01.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-02.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-03.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-04.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-05.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-06.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-07.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-08.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-09.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-10.webp",
+      "/topics/empresa-de-bombas-hidraulicas/empresa-bombas-hidraulicas-11.webp",
 
 
     ],
@@ -1757,10 +1757,10 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-01.webp",
-      "/src/assets/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-02.webp",
-      "/src/assets/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-03.webp",
-      "/src/assets/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-04.webp",
+      "/topics/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-01.webp",
+      "/topics/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-02.webp",
+      "/topics/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-03.webp",
+      "/topics/empresa-de-manutencao-de-unidades-hidraulicas/empresa-manutencao-unidades-hidraulicas-04.webp",
 
 
     ],
@@ -1801,10 +1801,10 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>fabricantes de cilindros hidráulicos</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>fabricantes de cilindros hidráulicos</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-01.webp",
-      "/src/assets/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-02.webp",
-      "/src/assets/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-03.webp",
-      "/src/assets/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-04.webp",
+      "/topics/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-01.webp",
+      "/topics/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-02.webp",
+      "/topics/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-03.webp",
+      "/topics/fabricantes-de-cilindros-hidraulicos/fabricantes-cilindros-hidraulicos-04.webp",
 
 
     ],
@@ -1844,11 +1844,11 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-01.webp",
-      "/src/assets/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-02.webp",
-      "/src/assets/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-03.webp",
-      "/src/assets/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-04.webp",
-      "/src/assets/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-05.webp",
+      "/topics/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-01.webp",
+      "/topics/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-02.webp",
+      "/topics/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-03.webp",
+      "/topics/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-04.webp",
+      "/topics/manutencao-cilindros-hidraulicos-preco/manutencao-cilindros-hidraulicos-preco-05.webp",
 
 
     ],
@@ -1893,10 +1893,10 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-01.webp",
-      "/src/assets/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-02.webp",
-      "/src/assets/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-03.webp",
-      "/src/assets/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-04.webp",
+      "/topics/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-01.webp",
+      "/topics/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-02.webp",
+      "/topics/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-03.webp",
+      "/topics/manutencao-de-unidades-hidraulicas/manutencao-unidades-hidraulicas-04.webp",
 
 
     ],
@@ -1936,9 +1936,9 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/motor-hidraulico-preco/motor-hidraulico-preco-01.webp",
-      "/src/assets/motor-hidraulico-preco/motor-hidraulico-preco-02.webp",
-      "/src/assets/motor-hidraulico-preco/motor-hidraulico-preco-03.webp",
+      "/topics/motor-hidraulico-preco/motor-hidraulico-preco-01.webp",
+      "/topics/motor-hidraulico-preco/motor-hidraulico-preco-02.webp",
+      "/topics/motor-hidraulico-preco/motor-hidraulico-preco-03.webp",
 
 
 
@@ -1976,15 +1976,15 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-01.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-02.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-03.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-04.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-05.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-06.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-07.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-08.webp",
-      "/src/assets/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-09.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-01.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-02.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-03.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-04.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-05.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-06.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-07.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-08.webp",
+      "/topics/valvulas-direcionais-hidraulicas/valvulas-direcionais-hidraulicas-09.webp",
 
 
 
@@ -2024,16 +2024,16 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-01.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-02.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-03.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-04.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-05.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-06.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-07.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-08.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-09.webp",
-      "/src/assets/atuador-hidraulico-industrial/atuador-hidraulico-industrial-10.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-01.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-02.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-03.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-04.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-05.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-06.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-07.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-08.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-09.webp",
+      "/topics/atuador-hidraulico-industrial/atuador-hidraulico-industrial-10.webp",
 
 
 
@@ -2091,16 +2091,16 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-01.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-02.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-03.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-04.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-05.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-06.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-07.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-08.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-09.webp",
-      "/src/assets/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-10.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-01.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-02.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-03.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-04.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-05.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-06.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-07.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-08.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-09.webp",
+      "/topics/bomba-hidraulica-alta-pressao/bomba-hidraulica-alta-pressao-10.webp",
 
 
 
@@ -2162,12 +2162,12 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-axial/bomba-hidraulica-axial-01.webp",
-      "/src/assets/bomba-hidraulica-axial/bomba-hidraulica-axial-02.webp",
-      "/src/assets/bomba-hidraulica-axial/bomba-hidraulica-axial-03.webp",
-      "/src/assets/bomba-hidraulica-axial/bomba-hidraulica-axial-04.webp",
-      "/src/assets/bomba-hidraulica-axial/bomba-hidraulica-axial-05.webp",
-      "/src/assets/bomba-hidraulica-axial/bomba-hidraulica-axial-06.webp",
+      "/topics/bomba-hidraulica-axial/bomba-hidraulica-axial-01.webp",
+      "/topics/bomba-hidraulica-axial/bomba-hidraulica-axial-02.webp",
+      "/topics/bomba-hidraulica-axial/bomba-hidraulica-axial-03.webp",
+      "/topics/bomba-hidraulica-axial/bomba-hidraulica-axial-04.webp",
+      "/topics/bomba-hidraulica-axial/bomba-hidraulica-axial-05.webp",
+      "/topics/bomba-hidraulica-axial/bomba-hidraulica-axial-06.webp",
 
 
     ],
@@ -2209,14 +2209,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-01.webp",
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-02.webp",
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-03.webp",
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-04.webp",
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-05.webp",
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-06.webp",
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-07.webp",
-      "/src/assets/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-08.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-01.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-02.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-03.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-04.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-05.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-06.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-07.webp",
+      "/topics/bomba-hidraulica-colheitadeira/bomba-hidraulica-colheitadeira-08.webp",
 
 
     ],
@@ -2268,14 +2268,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-01.webp",
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-02.webp",
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-03.webp",
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-04.webp",
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-05.webp",
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-06.webp",
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-07.webp",
-      "/src/assets/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-08.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-01.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-02.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-03.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-04.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-05.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-06.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-07.webp",
+      "/topics/bomba-hidraulica-engrenagem/bomba-hidraulica-engrenagem-08.webp",
 
 
     ],
@@ -2336,14 +2336,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-01.webp",
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-02.webp",
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-03.webp",
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-04.webp",
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-05.webp",
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-06.webp",
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-07.webp",
-      "/src/assets/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-08.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-01.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-02.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-03.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-04.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-05.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-06.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-07.webp",
+      "/topics/bomba-hidraulica-escavadeira/bomba-hidraulica-escavadeira-08.webp",
 
 
     ],
@@ -2395,14 +2395,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-01.webp",
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-02.webp",
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-03.webp",
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-04.webp",
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-05.webp",
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-06.webp",
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-07.webp",
-      "/src/assets/bomba-hidraulica-industrial/bomba-hidraulica-industrial-08.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-01.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-02.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-03.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-04.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-05.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-06.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-07.webp",
+      "/topics/bomba-hidraulica-industrial/bomba-hidraulica-industrial-08.webp",
 
 
     ],
@@ -2455,16 +2455,16 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-01.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-02.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-03.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-04.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-05.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-06.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-07.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-08.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-09.webp",
-      "/src/assets/bomba-hidraulica-preco/bomba-hidraulica-preco-10.webp"
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-01.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-02.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-03.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-04.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-05.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-06.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-07.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-08.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-09.webp",
+      "/topics/bomba-hidraulica-preco/bomba-hidraulica-preco-10.webp"
     ],
     mainContent: [
       "<div class=\"mpi-content\" style=\"display: none;\">",
@@ -2507,15 +2507,15 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-01.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-02.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-03.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-04.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-05.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-06.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-07.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-08.webp",
-      "/src/assets/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-09.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-01.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-02.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-03.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-04.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-05.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-06.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-07.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-08.webp",
+      "/topics/cilindro-hidraulico-a-venda/cilindro-hidraulico-venda-09.webp",
     ],
     mainContent: [
       "<div class=\"mpi-content\" style=\"display: none;\">",
@@ -2562,14 +2562,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-01.webp",
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-02.webp",
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-03.webp",
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-04.webp",
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-05.webp",
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-06.webp",
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-07.webp",
-      "/src/assets/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-08.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-01.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-02.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-03.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-04.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-05.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-06.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-07.webp",
+      "/topics/cilindro-hidraulico-alta-pressao/cilindro-hidraulico-alta-pressao-08.webp",
     ],
     mainContent: [
       "<div class=\"mpi-content\" style=\"display: none;\">",
@@ -2630,14 +2630,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-01.webp",
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-02.webp",
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-03.webp",
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-04.webp",
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-05.webp",
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-06.webp",
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-07.webp",
-      "/src/assets/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-08.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-01.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-02.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-03.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-04.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-05.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-06.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-07.webp",
+      "/topics/amortecedores-hidraulicos-industriais/cilindro-hidraulico-amortecedor-08.webp",
     ],
     mainContent: [
       "<div class=\"mpi-content\" style=\"display: none;\">",
@@ -2688,11 +2688,11 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-01.webp",
-      "/src/assets/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-02.webp",
-      "/src/assets/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-03.webp",
-      "/src/assets/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-04.webp",
-      "/src/assets/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-05.webp",
+      "/topics/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-01.webp",
+      "/topics/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-02.webp",
+      "/topics/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-03.webp",
+      "/topics/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-04.webp",
+      "/topics/cilindro-hidraulico-baixa-pressao/cilindro-hidraulico-baixa-pressao-05.webp",
 
     ],
     mainContent: [
@@ -2742,15 +2742,15 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-01.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-02.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-03.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-04.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-05.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-06.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-07.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-08.webp",
-      "/src/assets/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-09.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-01.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-02.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-03.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-04.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-05.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-06.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-07.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-08.webp",
+      "/topics/cilindro-hidraulico-basculante/cilindro-hidraulico-basculante-09.webp",
 
     ],
     mainContent: [
@@ -2791,14 +2791,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-01.webp",
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-02.webp",
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-03.webp",
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-04.webp",
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-05.webp",
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-06.webp",
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-07.webp",
-      "/src/assets/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-08.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-01.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-02.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-03.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-04.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-05.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-06.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-07.webp",
+      "/topics/cilindro-hidraulico-simples-efeito/cilindro-hidraulico-simples-efeito-08.webp",
 
 
     ],
@@ -2835,14 +2835,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-01.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-02.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-03.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-04.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-05.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-06.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-07.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-08.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-01.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-02.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-03.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-04.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-05.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-06.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-07.webp",
+      "/topics/cilindro-hidraulico-dupla-acao/cilindro-hidraulico-dupla-acao-08.webp",
 
 
 
@@ -2876,16 +2876,16 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-01.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-02.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-03.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-04.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-05.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-06.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-07.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-08.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-09.webp",
-      "/src/assets/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-10.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-01.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-02.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-03.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-04.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-05.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-06.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-07.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-08.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-09.webp",
+      "/topics/cilindro-hidraulico-dupla-acao_preco/cilindro-hidraulico-dupla-acao-preco-10.webp",
 
 
 
@@ -2924,14 +2924,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-01.webp",
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-02.webp",
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-03.webp",
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-04.webp",
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-05.webp",
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-06.webp",
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-07.webp",
-      "/src/assets/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-08.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-01.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-02.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-03.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-04.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-05.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-06.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-07.webp",
+      "/topics/cilindro-hidraulico-empilhadeira/cilindro-hidraulico-empilhadeira-08.webp",
 
 
 
@@ -2967,14 +2967,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-01.webp",
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-02.webp",
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-03.webp",
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-04.webp",
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-05.webp",
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-06.webp",
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-07.webp",
-      "/src/assets/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-08.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-01.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-02.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-03.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-04.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-05.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-06.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-07.webp",
+      "/topics/cilindro-hidraulico-flangeado/cilindro-hidraulico-flangeado-08.webp",
 
 
 
@@ -3011,15 +3011,15 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-01.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-02.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-03.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-04.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-05.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-06.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-07.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-08.webp",
-      "/src/assets/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-09.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-01.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-02.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-03.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-04.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-05.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-06.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-07.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-08.webp",
+      "/topics/cilindro-hidraulico-industrial/cilindro-hidraulico-industrial-09.webp",
 
     ],
     mainContent: [
@@ -3055,14 +3055,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-01.webp",
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-02.webp",
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-03.webp",
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-04.webp",
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-05.webp",
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-06.webp",
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-07.webp",
-      "/src/assets/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-08.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-01.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-02.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-03.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-04.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-05.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-06.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-07.webp",
+      "/topics/cilindro-hidraulico-retroescavadeira/cilindro-hidraulico-retroescavadeira-08.webp",
     ],
     mainContent: [
       "<h2>O QUE É CILINDRO HIDRÁULICO PARA RETROESCAVADEIRA?</h2>",
@@ -3093,16 +3093,16 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-01.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-02.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-03.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-04.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-05.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-06.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-07.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-08.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-09.webp",
-      "/src/assets/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-10.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-01.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-02.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-03.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-04.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-05.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-06.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-07.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-08.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-09.webp",
+      "/topics/cilindro-hidraulico-para-tratores/cilindro-hidraulico-tratores-10.webp",
     ],
     mainContent: [
       "<h2>CILINDRO HIDRÁULICO PARA TRATORES - PRIMORDIAL PARA UM FUNCIONAMENTO EFICIENTE</h2>",
@@ -3135,14 +3135,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-01.webp",
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-02.webp",
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-03.webp",
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-04.webp",
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-05.webp",
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-06.webp",
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-07.webp",
-      "/src/assets/cilindro-hidraulico-valor/cilindro-hidraulico-valor-08.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-01.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-02.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-03.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-04.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-05.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-06.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-07.webp",
+      "/topics/cilindro-hidraulico-valor/cilindro-hidraulico-valor-08.webp",
 
     ],
     mainContent: [
@@ -3173,14 +3173,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-01.webp",
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-02.webp",
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-03.webp",
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-04.webp",
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-05.webp",
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-06.webp",
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-07.webp",
-      "/src/assets/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-08.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-01.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-02.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-03.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-04.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-05.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-06.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-07.webp",
+      "/topics/cilindros-hidraulicos-catalogo/cilindros-hidraulicos-catalogo-08.webp",
 
     ],
     mainContent: [
@@ -3215,14 +3215,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-01.webp",
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-02.webp",
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-03.webp",
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-04.webp",
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-05.webp",
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-06.webp",
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-07.webp",
-      "/src/assets/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-08.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-01.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-02.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-03.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-04.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-05.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-06.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-07.webp",
+      "/topics/reforma-de-cilindros-hidraulicos/reforma-cilindros-hidraulicos-08.webp",
 
     ],
     mainContent: [
@@ -3258,14 +3258,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-01.webp",
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-02.webp",
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-03.webp",
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-04.webp",
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-05.webp",
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-06.webp",
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-07.webp",
-      "/src/assets/valvula-controle-direcional/valvula-controle-direcional-08.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-01.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-02.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-03.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-04.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-05.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-06.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-07.webp",
+      "/topics/valvula-controle-direcional/valvula-controle-direcional-08.webp",
 
     ],
     mainContent: [
@@ -3296,14 +3296,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-01.webp",
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-02.webp",
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-03.webp",
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-04.webp",
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-05.webp",
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-06.webp",
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-07.webp",
-      "/src/assets/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-08.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-01.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-02.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-03.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-04.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-05.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-06.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-07.webp",
+      "/topics/valvula-direcional-centro-aberto/valvula-direcional-centro-aberto-08.webp",
 
     ],
     mainContent: [
@@ -3338,14 +3338,14 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>válvula direcional centro fechado</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>válvula direcional centro fechado</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-01.webp",
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-02.webp",
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-03.webp",
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-04.webp",
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-05.webp",
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-06.webp",
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-07.webp",
-      "/src/assets/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-08.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-01.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-02.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-03.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-04.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-05.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-06.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-07.webp",
+      "/topics/valvula-direcional-centro-fechado/valvula-direcional-centro-fechado-08.webp",
 
     ],
     mainContent: [
@@ -3377,14 +3377,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-01.webp",
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-02.webp",
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-03.webp",
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-04.webp",
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-05.webp",
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-06.webp",
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-07.webp",
-      "/src/assets/valvula-direcional-com-alavanca/valvula-direcional-alavanca-08.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-01.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-02.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-03.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-04.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-05.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-06.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-07.webp",
+      "/topics/valvula-direcional-com-alavanca/valvula-direcional-alavanca-08.webp",
 
     ],
     mainContent: [
@@ -3417,14 +3417,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-01.webp",
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-02.webp",
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-03.webp",
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-04.webp",
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-05.webp",
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-06.webp",
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-07.webp",
-      "/src/assets/valvula-direcional-eletrica/valvula-direcional-eletrica-08.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-01.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-02.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-03.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-04.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-05.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-06.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-07.webp",
+      "/topics/valvula-direcional-eletrica/valvula-direcional-eletrica-08.webp",
 
     ],
     mainContent: [
@@ -3458,14 +3458,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-01.webp",
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-02.webp",
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-03.webp",
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-04.webp",
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-05.webp",
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-06.webp",
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-07.webp",
-      "/src/assets/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-08.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-01.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-02.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-03.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-04.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-05.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-06.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-07.webp",
+      "/topics/valvula-direcional-hidraulica-pilotada/valvula-direcional-hidraulica-pilotada-08.webp",
 
     ],
     mainContent: [
@@ -3501,14 +3501,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-01.webp",
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-02.webp",
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-03.webp",
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-04.webp",
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-05.webp",
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-06.webp",
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-07.webp",
-      "/src/assets/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-08.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-01.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-02.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-03.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-04.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-05.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-06.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-07.webp",
+      "/topics/valvula-direcional-hidraulica-preco/valvula-direcional-hidraulica-preco-08.webp",
 
     ],
 
@@ -3544,14 +3544,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-01.webp",
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-02.webp",
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-03.webp",
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-04.webp",
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-05.webp",
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-06.webp",
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-07.webp",
-      "/src/assets/valvula-direcional-proporcional/valvula-direcional-proporcional-08.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-01.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-02.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-03.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-04.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-05.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-06.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-07.webp",
+      "/topics/valvula-direcional-proporcional/valvula-direcional-proporcional-08.webp",
     ],
 
     mainContent: [
@@ -3591,14 +3591,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-01.webp",
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-02.webp",
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-03.webp",
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-04.webp",
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-05.webp",
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-06.webp",
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-07.webp",
-      "/src/assets/valvula-direcional-solenoide/valvula-direcional-solenoide-08.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-01.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-02.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-03.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-04.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-05.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-06.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-07.webp",
+      "/topics/valvula-direcional-solenoide/valvula-direcional-solenoide-08.webp",
     ],
 
     mainContent: [
@@ -3628,14 +3628,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-01.webp",
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-02.webp",
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-03.webp",
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-04.webp",
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-05.webp",
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-06.webp",
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-07.webp",
-      "/src/assets/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-08.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-01.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-02.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-03.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-04.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-05.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-06.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-07.webp",
+      "/topics/valvula-e-atuadores-hidraulicos/valvulas-atuadores-hidraulicos-08.webp",
     ],
 
     mainContent: [
@@ -3668,14 +3668,14 @@ export const topicContents: Record<string, TopicContent> = {
       "<p>Se você está procurando por <strong>filtro hda</strong>, você veio ao lugar certo! A HiComp é especializada em <strong>filtro hda</strong> e oferece uma ampla gama de serviços para atender às suas necessidades. Nossa equipe de profissionais altamente capacitados está sempre pronta para ajudá-lo(a) a encontrar as melhores soluções para o seu negócio. Conheça mais sobre nossos serviços e entre em contato conosco para saber como podemos ajudar a impulsionar a sua empresa!</p>",
     images: [
 
-      "/src/assets/filtro-hda/filtro-hda-01.webp",
-      "/src/assets/filtro-hda/filtro-hda-02.webp",
-      "/src/assets/filtro-hda/filtro-hda-03.webp",
-      "/src/assets/filtro-hda/filtro-hda-04.webp",
-      "/src/assets/filtro-hda/filtro-hda-05.webp",
-      "/src/assets/filtro-hda/filtro-hda-06.webp",
-      "/src/assets/filtro-hda/filtro-hda-07.webp",
-      "/src/assets/filtro-hda/filtro-hda-08.webp",
+      "/topics/filtro-hda/filtro-hda-01.webp",
+      "/topics/filtro-hda/filtro-hda-02.webp",
+      "/topics/filtro-hda/filtro-hda-03.webp",
+      "/topics/filtro-hda/filtro-hda-04.webp",
+      "/topics/filtro-hda/filtro-hda-05.webp",
+      "/topics/filtro-hda/filtro-hda-06.webp",
+      "/topics/filtro-hda/filtro-hda-07.webp",
+      "/topics/filtro-hda/filtro-hda-08.webp",
     ],
 
     mainContent: [
@@ -3716,14 +3716,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/filtros-newtec/filtros-newtec-01.webp",
-      "/src/assets/filtros-newtec/filtros-newtec-02.webp",
-      "/src/assets/filtros-newtec/filtros-newtec-03.webp",
-      "/src/assets/filtros-newtec/filtros-newtec-04.webp",
-      "/src/assets/filtros-newtec/filtros-newtec-05.webp",
-      "/src/assets/filtros-newtec/filtros-newtec-06.webp",
-      "/src/assets/filtros-newtec/filtros-newtec-07.webp",
-      "/src/assets/filtros-newtec/filtros-newtec-08.webp",
+      "/topics/filtros-newtec/filtros-newtec-01.webp",
+      "/topics/filtros-newtec/filtros-newtec-02.webp",
+      "/topics/filtros-newtec/filtros-newtec-03.webp",
+      "/topics/filtros-newtec/filtros-newtec-04.webp",
+      "/topics/filtros-newtec/filtros-newtec-05.webp",
+      "/topics/filtros-newtec/filtros-newtec-06.webp",
+      "/topics/filtros-newtec/filtros-newtec-07.webp",
+      "/topics/filtros-newtec/filtros-newtec-08.webp",
     ],
 
     mainContent: [
@@ -3761,14 +3761,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-01.webp",
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-02.webp",
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-03.webp",
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-04.webp",
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-05.webp",
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-06.webp",
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-07.webp",
-      "/src/assets/bomba-hidraulica-denison/bomba-hidraulica-denison-08.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-01.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-02.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-03.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-04.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-05.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-06.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-07.webp",
+      "/topics/bomba-hidraulica-denison/bomba-hidraulica-denison-08.webp",
     ],
 
     mainContent: [
@@ -3797,14 +3797,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-01.webp",
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-02.webp",
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-03.webp",
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-04.webp",
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-05.webp",
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-06.webp",
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-07.webp",
-      "/src/assets/filtro-pressao-hda/filtro-pressao-hda-08.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-01.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-02.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-03.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-04.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-05.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-06.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-07.webp",
+      "/topics/filtro-pressao-hda/filtro-pressao-hda-08.webp",
     ],
 
     mainContent: [
@@ -3836,14 +3836,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-01.webp",
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-02.webp",
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-03.webp",
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-04.webp",
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-05.webp",
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-06.webp",
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-07.webp",
-      "/src/assets/distribuidor-filtros-hda/distribuidor-filtros-hda-08.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-01.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-02.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-03.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-04.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-05.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-06.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-07.webp",
+      "/topics/distribuidor-filtros-hda/distribuidor-filtros-hda-08.webp",
     ],
 
     mainContent: [
@@ -3880,14 +3880,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-01.webp",
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-02.webp",
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-03.webp",
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-04.webp",
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-05.webp",
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-06.webp",
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-07.webp",
-      "/src/assets/unidade-hidraulica-vickers/unidade-hidraulica-vickers-08.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-01.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-02.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-03.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-04.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-05.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-06.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-07.webp",
+      "/topics/unidade-hidraulica-vickers/unidade-hidraulica-vickers-08.webp",
     ],
 
     mainContent: [
@@ -3926,14 +3926,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-01.webp",
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-02.webp",
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-03.webp",
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-04.webp",
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-05.webp",
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-06.webp",
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-07.webp",
-      "/src/assets/filtro-duplo-hda/filtro-duplo-hda-08.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-01.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-02.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-03.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-04.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-05.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-06.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-07.webp",
+      "/topics/filtro-duplo-hda/filtro-duplo-hda-08.webp",
     ],
 
     mainContent: [
@@ -3975,14 +3975,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-01.webp",
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-02.webp",
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-03.webp",
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-04.webp",
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-05.webp",
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-06.webp",
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-07.webp",
-      "/src/assets/atuador-hidraulico-preco/atuador-hidraulico-preco-08.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-01.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-02.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-03.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-04.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-05.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-06.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-07.webp",
+      "/topics/atuador-hidraulico-preco/atuador-hidraulico-preco-08.webp",
     ],
 
     mainContent: [
@@ -4022,11 +4022,11 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-01.webp",
-      "/src/assets/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-02.webp",
-      "/src/assets/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-03.webp",
-      "/src/assets/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-04.webp",
-      "/src/assets/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-05.webp",
+      "/topics/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-01.webp",
+      "/topics/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-02.webp",
+      "/topics/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-03.webp",
+      "/topics/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-04.webp",
+      "/topics/valvula-direcional-hidraulica-manual/valvula-direcional-hidraulica-manual-05.webp",
     ],
 
     mainContent: [
@@ -4068,14 +4068,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-01.webp",
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-02.webp",
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-03.webp",
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-04.webp",
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-05.webp",
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-06.webp",
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-07.webp",
-      "/src/assets/reforma-de-cilindros/reforma-cilindros-08.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-01.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-02.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-03.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-04.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-05.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-06.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-07.webp",
+      "/topics/reforma-de-cilindros/reforma-cilindros-08.webp",
     ],
 
     mainContent: [
@@ -4114,13 +4114,13 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-01.webp",
-      "/src/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-02.webp",
-      "/src/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-03.webp",
-      "/src/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-04.webp",
-      "/src/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-05.webp",
-      "/src/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-06.webp",
-      "/src/assets/valvula-direcional-mecanica/valvula-direcional-mecanica-07.webp",
+      "/topics/valvula-direcional-mecanica/valvula-direcional-mecanica-01.webp",
+      "/topics/valvula-direcional-mecanica/valvula-direcional-mecanica-02.webp",
+      "/topics/valvula-direcional-mecanica/valvula-direcional-mecanica-03.webp",
+      "/topics/valvula-direcional-mecanica/valvula-direcional-mecanica-04.webp",
+      "/topics/valvula-direcional-mecanica/valvula-direcional-mecanica-05.webp",
+      "/topics/valvula-direcional-mecanica/valvula-direcional-mecanica-06.webp",
+      "/topics/valvula-direcional-mecanica/valvula-direcional-mecanica-07.webp",
       
     ],
 
@@ -4148,14 +4148,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-01.webp",
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-02.webp",
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-03.webp",
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-04.webp",
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-05.webp",
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-06.webp",
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-07.webp",
-      "/src/assets/bomba-de-palhetas/bomba-palhetas-08.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-01.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-02.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-03.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-04.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-05.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-06.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-07.webp",
+      "/topics/bomba-de-palhetas/bomba-palhetas-08.webp",
     ],
 
     mainContent: [
@@ -4193,13 +4193,13 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-01.webp",
-      "/src/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-02.webp",
-      "/src/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-03.webp",
-      "/src/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-04.webp",
-      "/src/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-05.webp",
-      "/src/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-06.webp",
-      "/src/assets/bomba-de-palhetas-vickers/bomba-palhetas-vickers-07.webp",
+      "/topics/bomba-de-palhetas-vickers/bomba-palhetas-vickers-01.webp",
+      "/topics/bomba-de-palhetas-vickers/bomba-palhetas-vickers-02.webp",
+      "/topics/bomba-de-palhetas-vickers/bomba-palhetas-vickers-03.webp",
+      "/topics/bomba-de-palhetas-vickers/bomba-palhetas-vickers-04.webp",
+      "/topics/bomba-de-palhetas-vickers/bomba-palhetas-vickers-05.webp",
+      "/topics/bomba-de-palhetas-vickers/bomba-palhetas-vickers-06.webp",
+      "/topics/bomba-de-palhetas-vickers/bomba-palhetas-vickers-07.webp",
       
     ],
 
@@ -4243,11 +4243,11 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-denison/bomba-denison-01.webp",
-      "/src/assets/bomba-denison/bomba-denison-02.webp",
-      "/src/assets/bomba-denison/bomba-denison-03.webp",
-      "/src/assets/bomba-denison/bomba-denison-04.webp",
-      "/src/assets/bomba-denison/bomba-denison-05.webp",
+      "/topics/bomba-denison/bomba-denison-01.webp",
+      "/topics/bomba-denison/bomba-denison-02.webp",
+      "/topics/bomba-denison/bomba-denison-03.webp",
+      "/topics/bomba-denison/bomba-denison-04.webp",
+      "/topics/bomba-denison/bomba-denison-05.webp",
       
       
     ],
@@ -4287,15 +4287,15 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-rexroth/bomba-rexroth-01.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-02.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-03.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-04.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-05.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-06.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-07.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-08.webp",
-      "/src/assets/bomba-rexroth/bomba-rexroth-09.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-01.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-02.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-03.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-04.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-05.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-06.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-07.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-08.webp",
+      "/topics/bomba-rexroth/bomba-rexroth-09.webp",
       
       
     ],
@@ -4339,14 +4339,14 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/bomba-vickers1/bomba-vickers-01.webp",
-      "/src/assets/bomba-vickers1/bomba-vickers-02.webp",
-      "/src/assets/bomba-vickers1/bomba-vickers-03.webp",
-      "/src/assets/bomba-vickers1/bomba-vickers-04.webp",
-      "/src/assets/bomba-vickers1/bomba-vickers-05.webp",
-      "/src/assets/bomba-vickers1/bomba-vickers-06.webp",
-      "/src/assets/bomba-vickers1/bomba-vickers-07.webp",
-      "/src/assets/bomba-vickers1/bomba-vickers-08.webp",
+      "/topics/bomba-vickers1/bomba-vickers-01.webp",
+      "/topics/bomba-vickers1/bomba-vickers-02.webp",
+      "/topics/bomba-vickers1/bomba-vickers-03.webp",
+      "/topics/bomba-vickers1/bomba-vickers-04.webp",
+      "/topics/bomba-vickers1/bomba-vickers-05.webp",
+      "/topics/bomba-vickers1/bomba-vickers-06.webp",
+      "/topics/bomba-vickers1/bomba-vickers-07.webp",
+      "/topics/bomba-vickers1/bomba-vickers-08.webp",
       
       
     ],
@@ -4392,12 +4392,12 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/conjunto-rotativo/conjunto-rotativo-01.webp",
-      "/src/assets/conjunto-rotativo/conjunto-rotativo-02.webp",
-      "/src/assets/conjunto-rotativo/conjunto-rotativo-03.webp",
-      "/src/assets/conjunto-rotativo/conjunto-rotativo-04.webp",
-      "/src/assets/conjunto-rotativo/conjunto-rotativo-05.webp",
-      "/src/assets/conjunto-rotativo/conjunto-rotativo-06.webp",
+      "/topics/conjunto-rotativo/conjunto-rotativo-01.webp",
+      "/topics/conjunto-rotativo/conjunto-rotativo-02.webp",
+      "/topics/conjunto-rotativo/conjunto-rotativo-03.webp",
+      "/topics/conjunto-rotativo/conjunto-rotativo-04.webp",
+      "/topics/conjunto-rotativo/conjunto-rotativo-05.webp",
+      "/topics/conjunto-rotativo/conjunto-rotativo-06.webp",
       
       
       
@@ -4438,12 +4438,12 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-01.webp",
-      "/src/assets/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-02.webp",
-      "/src/assets/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-03.webp",
-      "/src/assets/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-04.webp",
-      "/src/assets/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-05.webp",
-      "/src/assets/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-06.webp",
+      "/topics/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-01.webp",
+      "/topics/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-02.webp",
+      "/topics/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-03.webp",
+      "/topics/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-04.webp",
+      "/topics/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-05.webp",
+      "/topics/conserto-de-valvulas-hidraulicas/conserto-valvulas-hidraulicas-06.webp",
       
       
     
@@ -4487,11 +4487,11 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-direccional-dofluid/valvula-direccional-dofluid-01.webp",
-      "/src/assets/valvula-direccional-dofluid/valvula-direccional-dofluid-02.webp",
-      "/src/assets/valvula-direccional-dofluid/valvula-direccional-dofluid-03.webp",
-      "/src/assets/valvula-direccional-dofluid/valvula-direccional-dofluid-04.webp",
-      "/src/assets/valvula-direccional-dofluid/valvula-direccional-dofluid-05.webp",
+      "/topics/valvula-direccional-dofluid/valvula-direccional-dofluid-01.webp",
+      "/topics/valvula-direccional-dofluid/valvula-direccional-dofluid-02.webp",
+      "/topics/valvula-direccional-dofluid/valvula-direccional-dofluid-03.webp",
+      "/topics/valvula-direccional-dofluid/valvula-direccional-dofluid-04.webp",
+      "/topics/valvula-direccional-dofluid/valvula-direccional-dofluid-05.webp",
      
       
     
@@ -4532,16 +4532,16 @@ export const topicContents: Record<string, TopicContent> = {
 
     images: [
 
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-01.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-02.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-03.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-04.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-05.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-06.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-07.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-08.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-09.webp",
-      "/src/assets/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-10.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-01.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-02.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-03.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-04.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-05.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-06.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-07.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-08.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-09.webp",
+      "/topics/valvula-proporcional-hidraulica-vickers/valvula-proporcional-hidraulica-vickers-10.webp",
      
       
     

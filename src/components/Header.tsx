@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Phone, ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { FaWhatsapp } from "react-icons/fa";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import logo from "@/assets/logo.png";
 import logo150 from "@/assets/logo-150.webp";
 import logo300 from "@/assets/logo-300.webp";
@@ -69,7 +69,7 @@ const Header = () => {
                 <span>(11) 2619-5482</span>
               </a>
               <a href="https://wa.me/5511992465636" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 transition-smooth text-primary-foreground font-semibold" aria-label="Abrir conversa no WhatsApp">
-                <FaWhatsapp className="h-4 w-4" aria-hidden="true" />
+                <WhatsAppIcon className="h-4 w-4" aria-hidden="true" />
                 <span>(11) 99246-5636 - WhatsApp</span>
               </a>
             </div>
@@ -259,7 +259,7 @@ const Header = () => {
                 aria-label="Falar pelo WhatsApp"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <FaWhatsapp className="h-5 w-5" aria-hidden="true" />
+                <WhatsAppIcon className="h-5 w-5" aria-hidden="true" />
                 Falar pelo WhatsApp
               </a>
             </nav>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { FaWhatsapp } from "react-icons/fa";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 // Hero images servidas de /public/ para permitir <link rel="preload"> estático no HTML
 const HERO_WEBP_480 = "/hero-hydraulic-480.webp";
@@ -62,7 +62,7 @@ const HeroSection = () => {
             className="flex items-center gap-2 bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold text-lg px-6 py-3 rounded-lg transition-colors hover-lift"
             aria-label="Falar com especialista pelo WhatsApp"
           >
-            <FaWhatsapp className="h-5 w-5" />
+            <WhatsAppIcon className="h-5 w-5" />
             Falar pelo WhatsApp
           </a>
         </div>

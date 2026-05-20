@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import SEOEnhanced from "@/components/SEOEnhanced";
-import { FaWhatsapp } from "react-icons/fa";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { createBreadcrumbSchema, createServiceSchema } from "@/utils/structuredData";
 
 const ServiceDetail = () => {
@@ -258,7 +258,7 @@ const ServiceDetail = () => {
                     className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold h-11 rounded-md px-8 transition-colors"
                     aria-label="Solicitar orçamento pelo WhatsApp"
                   >
-                    <FaWhatsapp className="h-5 w-5" aria-hidden="true" />
+                    <WhatsAppIcon className="h-5 w-5" aria-hidden="true" />
                     WhatsApp
                   </a>
                 </div>
