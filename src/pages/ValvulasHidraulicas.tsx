@@ -312,7 +312,7 @@ const ValvulasHidraulicas = () => {
               <p className="text-muted-foreground leading-relaxed">
                 <strong>Recomendações de escolha:</strong> Parker oferece o melhor equilíbrio entre disponibilidade
                 e custo para aplicações industriais gerais. Rexroth é preferível em sistemas de alta pressão
-                (>250 bar) e aplicações que exigem precisão extrema. Vickers é excelente escolha para retrofit
+                (&gt;250 bar) e aplicações que exigem precisão extrema. Vickers é excelente escolha para retrofit
                 de máquinas antigas e quando o fator determinante é custo. Todas as marcas têm qualidade
                 comprovada e suporte técnico no Brasil.
               </p>

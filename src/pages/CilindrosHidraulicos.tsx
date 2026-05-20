@@ -311,7 +311,7 @@ const CilindrosHidraulicos = () => {
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 <strong>Recomendações de uso:</strong> Parker oferece o melhor equilíbrio custo-benefício para
-                aplicações industriais gerais. Rexroth é ideal para alta pressão e ciclos intensivos (>1M ciclos).
+                aplicações industriais gerais. Rexroth é ideal para alta pressão e ciclos intensivos (&gt;1M ciclos).
                 Vickers tem excelente custo em aplicações de médio porte. A HiComp também fabrica cilindros
                 compatíveis com padrões ISO, oferecendo economia de até 40% com desempenho equivalente para
                 aplicações não críticas.

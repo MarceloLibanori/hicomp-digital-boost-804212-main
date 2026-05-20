@@ -351,7 +351,7 @@ const HidraulicaIndustrial = () => {
                 </table>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                <strong>Decisão de projeto:</strong> Use hidráulica quando precisar de forças >5 kN, controle
+                <strong>Decisão de projeto:</strong> Use hidráulica quando precisar de forças &gt;5 kN, controle
                 preciso de velocidade, paradas em qualquer posição, ou ciclos intensivos. Use pneumática para
                 movimentos rápidos de pequena força, ambiente limpo (indústria alimentícia, farmacêutica),
                 ou quando simplicidade é mais importante que eficiência. Para aplicações híbridas, sistemas
